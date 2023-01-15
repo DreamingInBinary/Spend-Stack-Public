@@ -1,0 +1,6 @@
+framework module Pods_ListInsightsWidgetExtension {
+  umbrella header "Pods-ListInsightsWidgetExtension-umbrella.h"
+
+  export *
+  module * { export * }
+}

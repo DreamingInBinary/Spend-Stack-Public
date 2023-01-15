@@ -1,0 +1,575 @@
+/* 
+  Localizable.strings
+  Spend Stack
+
+  Created by Jordan Morgan on 1/2/17.
+  Copyright © 2017 Jordan Morgan. All rights reserved.
+*/
+
+/* General */
+"general.help" = "Help";
+"general.edit" = "Edit";
+"general.yes" = "Yes";
+"general.continue" = "Continue";
+"general.cancel" = "Cancel";
+"general.settings" = "Settings";
+"general.delete" = "Delete";
+"general.sort" = "Sort";
+"general.text" = "Text";
+"general.pdf" = "PDF";
+"general.print" = "Print";
+"general.print.no" = "Printing Unavailable";
+"general.print.no2" = "Printing isn't enabled on this device.";
+"general.shareList" = "Share List";
+"general.shareLists" = "Share Lists";
+"general.shareList.method" = "How would you like to share your lists?";
+"general.shareLists.method" = "How would you like to share your list?";
+"general.deleteList" = "Delete List";
+"general.deleteLists" = "Delete Lists";
+"general.deleteList.method" = "Would you like to delete the selected list?";
+"general.deleteLists.method" = "Would you like to delete the selected lists?";
+"general.deleteList.yesConfirm" = "Delete List";
+"general.deleteListItems.yesConfirm" = "Delete All Items";
+"general.deleteList.shared" = "Delete Shared List?";
+"general.deleteList.sharedExp" = "It will be deleted on all of your devices. To reopen the list, tap the link you were invited with.";
+"general.deleteList.sharedExp2" = "If you delete this shared list, other people will no longer have access, and it will be deleted on all of their devices.";
+"general.alphabetically" = "Alphabetically";
+"general.newest" = "Newest";
+"general.oldest" = "Oldest";
+"general.sort.lists" = "Sort Lists";
+"general.choose" = "Choose an option.";
+"general.lists" = "Lists";
+"general.advanced" = "Advanced";
+"general.about" = "About";
+"general.noConnection" = "No Connection Available";
+"general.contactSupport" = "Contact Support";
+"general.contactUs" = "Contact Us";
+"general.ok" = "OK";
+"general.error.title" = "Excuse Us";
+"general.noThanks" = "No Thanks";
+"general.openSettings" = "Open Settings";
+"general.iPhone.possessive" = "iPhone's";
+"general.iPad.possessive" = "iPad's";
+"general.share" = "Share";
+"general.image" = "Image";
+"general.untitled" = "Untitled Item";
+"general.gotIt" = "Got it!";
+
+/* General Accessibility */
+"ac.tapToDismiss" = "Double tap to dismiss.";
+
+/* Errors */
+"error.appleCardImport" = "The file was unable to be imported. If the issue persists, please contact support.";
+"error.appleCardImport.noAccess" = "Spend Stack couldn't get permissions to access that file.";
+
+/* Apple Card */
+"appleCard.header" = "Import for Apple Card ®";
+"appleCard.copy" = "Import your Apple Card® Statements into a list in Spend Stack. For each charge, we'll create an item for your list complete with a tag for its category. This data is only viewable by you or anyone you share your list with.\n\nTo get started, you'll need to export an Apple Card® statement into the Files app in a .csv format.";
+"appleCard.start" = "Get Started";
+"appleCard.howTo" = "How to export your Apple Card® statements.";
+"appleCard.import" = "Imported %@ of %@ items.";
+"appleCard.done" = "Apple Card Import Finished";
+
+/* Bar Items */
+"barItem.scan" = "Scan Barcode";
+"barItem.listBreakdown" = "List Breakdown";
+"barItem.listBreakdown.asc" = "View List's Cost";
+"barItem.insights" = "List Insights";
+"barItem.addTag" = "Add Tag";
+"barItem.add" = "Add";
+"barItem.addItem" = "Add Item";
+"barItem.kb" = "Dismiss Keyboard";
+"barItem.zeroes.asc" = "Double Zero";
+"barItem.zeroes.ascHint" = "Add two zeroes to amount.";
+"barItem.export" = "Export";
+"barItem.export.asc" = "Export Data";
+"barItem.photo" = "Take a photo";
+"barItem.docs" = "View Documents";
+"barItem.plusMinus" = "Plus Minus";
+"barItem.plusMinus.asc" = "Toggles between a negative and positive number.";
+"barItem.edit" = "Edit";
+"barItem.appleCard" = "Import Apple Card Statement";
+
+/* Empty View */
+"emptyView.create" = "To create a list, tap the icon at the bottom right.";
+
+/* Key Commands */
+"kc.create" = "Create a New List";
+"kc.help" = "Open Help & More";
+
+/* First Run VC */
+"firstRun.vc.flexibile" = "Budget using lists";
+"firstRun.vc.share" = "Track subscriptions, import Apple Card™ statements, budget out a vacation or make an envelope budget that you can share with others.";
+"firstRun.vc.accurate" = "Figure exact costs";
+"firstRun.vc.accurate2" = "Know exactly how much each item costs with discounts, taxes, pricing by weight and more.";
+"firstRun.vc.tags" = "Tags";
+"firstRun.vc.organize" = "Categorize and organize anything by creating tags.";
+"firstRun.vc.headerText" = "Welcome to Spend Stack";
+"firstRun.vc.headerText2" = "Welcome to\nSpend Stack";
+
+/* Expired */
+"betaExpired.headerText" = "Thanks for testing Spend Stack";
+"betaExpired.headerText2" = "Thanks for testing\nSpend Stack";
+"betaExpired.detail" = "This build has expired. Please download the version in the App Store.";
+"betaExpired.download" = "Download";
+
+/* Help and More VC */
+"ham.vc.title" = "Help and More";
+"ham.vc.manage" = "Manage Tags";
+"ham.vc.tags" = "Create or edit tags.";
+"ham.vc.learn" = "Learn More";
+"ham.vc.totals" = "Show Tag Totals";
+"ham.vc.listTotal" = "Show List Total";
+"ham.vc.more" = "Syncing and other options.";
+"ham.vc.contact" = "Contact Us";
+"ham.vc.question" = "Get help or ask a question.";
+"ham.vc.tweet" = "Tweet Us";
+"ham.vc.upToDate" = "Stay up to date.";
+"ham.vc.reddit" = "Reddit Community";
+"ham.vc.reddit2" = "Chat with other users.";
+"ham.vc.version" = "Version information.";
+"ham.vc.review" = "Review Spend Stack";
+"ham.vc.review2" = "Let us know how we're doing.";
+"ham.vc.privacy" = "Privacy Policy";
+"ham.vc.privacy2" = "Your data is yours.";
+"ham.vc.acknowledge" = "Acknowledgments";
+"ham.vc.acknowledge2" = "Open source libraries we've used.";
+"ham.vc.header00" = "Tips and Guides";
+"ham.vc.header0" = "Appearance";
+"ham.vc.header1" = "List Settings";
+"ham.vc.header2" = "Reach Out";
+"ham.vc.header3" = "Colophon";
+"ham.vc.wholeNum" = "Use Whole Numbers";
+"ham.vc.localize" = "Translation Suggestion";
+"ham.vc.localize2" = "Improve our localization.";
+"ham.vc.appearance" = "Change Icon";
+"ham.vc.appearance2" = "Fit for any home screen.";
+"ham.vc.guides" = "Just getting started?";
+"ham.vc.guides2" = "Read our quick start blog post.";
+
+/* Explainer Utils and VC */
+"ex.util.tag" = "Tags";
+"ex.util.tagTotal" = "Tag Subtotals";
+"ex.util.listTotal" = "List Totals";
+"ex.util.wholeNum" = "Whole Numbers";
+"ex.util.tax" = "Sales Tax Rate";
+"ex.util.check" = "Checklists";
+"ex.util.currency" = "Custom Currencies";
+"ex.util.acc1" = "Image of list tags.";
+"ex.util.acc2" = "Image of a tag's subtotal.";
+"ex.util.acc3" = "Image of a list's total amount.";
+"ex.util.acc4" = "Image of a list's sales tax.";
+"ex.util.acc5" = "Image of a list's checkboxes.";
+"ex.util.acc6" = "Image of various currencies.";
+"ex.util.subHead1" = "Organize items with tags.";
+"ex.util.subHead2" = "View the total price of a tag's items.";
+"ex.util.subhead3" = "The total amount of your list.";
+"ex.util.subhead4" = "Whole number currencies.";
+"ex.util.subhead5" = "Automatically apply sales tax to an item's cost.";
+"ex.util.subhead6" = "Show Checkboxes.";
+"ex.util.subhead7" = "Selecting a currency.";
+"ex.util.detail1" = "Tags let you group similar items together. Use it to group groceries by produce or dairy, birthday gifts for your family, stuff you want to budget for or any other category you'd like to put things under.\n\nAny tags you create will sync automatically to your other devices signed into the same iCloud account as this one, and any tags that are in a list when you share it will show up for the people you've shared your list with too.\n\nTags carry over across all of your lists, so you don't have to keep making the same ones over and over. And, if you edit one, it'll be reflected on any other list it shows up on.";
+"ex.util.detail2" = "When this is on, a total amount of the items within a tag will display at the bottom of each section.\n\nThis way, you can easily see how much of your list's total is coming from each tag and all the items within it.";
+"ex.util.detail3" = "This shows the total amount of your list's items at the top of your list. You can tap on it to see a more detailed explanation showing a subtotal, tax and discount amounts.\n\nEven if you have this off, you can always tap the calculator icon at the bottom left to view the total amount breakdown at any time.";
+"ex.util.detail4" = "If this is turned on, all currency data will be formatted as a whole number in Spend Stack. In addition, entering in costs will also enforce whole values.\n\nThis is useful for regions where currencies don't use fractional values, such as 1 instead of 1.00.";
+"ex.util.detail5" = "If this is turned on, Spend Stack will apply the sales tax for your area to an item's cost. You can also turn this on or off on an item by item basis, as well as change the tax rate for the list later on within settings.";
+"ex.util.detail6" = "If this is turned on, Spend Stack will show a checkbox next to each item. You can also show the total cost of only checked or unchecked items in addition to all of your items. You can later toggle this on or off within settings.";
+"ex.util.detail7" = "You can choose any currency to use for your list. You can later edit this at any point within a list's settings.";
+
+/* Tags VC */
+"tags.vc.header" = "Choose a tag to edit.";
+"tags.vc.empty" = "To create a tag, tap the icon at the bottom right.";
+"tags.vc.undo" = "Delete Tag";
+"tags.vc.choose" = "Choose a tag.";
+"tags.vc.color" = "Tag Color";
+
+/* TagsManager VC */
+"tagsManager.vc.edit" = "Edit Tag";
+"tagsManager.vc.create" = "Create a Tag";
+"tagsManager.vc.name" = "Name your tag...";
+"tagsManager.vc.restore" = "Restore Tag";
+"tagsManager.vc.leave" = "Leave Deleted";
+"tagsManager.vc.deleted" = "Tag Deleted";
+"tagsManager.vc.choice" = "This tag has been deleted from another device. Do you want to restore it, or leave it deleted?";
+"tagsManager.vc.confirmDelete" = "Would you like to delete this tag?";
+"tagsManager.vc.newTag" = "New Tag";
+
+/* Advanced List Options VC */
+"advList.vc.syncing" = "Syncing List...";
+"advList.vc.fetching" = "Fetching List...";
+"advList.vc.performing" = "Performing Sync...";
+"advList.vc.performing2" = "Syncing...";
+"advList.vc.title" = "Advanced";
+"avdList.vc.iCloud" = "iCloud List Syncing";
+"advList.vc.resync" = "Sync List";
+"advList.vc.explainSync" = "This will resend all of this list's data as it appears now on this device to iCloud. Use this if another device appears to be missing some of the data on this one.";
+"advList.vc.fetch" = "Fetch List";
+"advList.vc.explainFetch" = "This will refetch all of this list's data from iCloud. Use this if this device appears to be missing some data from another one of your devices.";
+"advList.vc.performFetch" = "Perform Fetch";
+"advList.vc.allFetch" = "This will fetch all of Spend Stack's data from iCloud. Spend Stack will perform syncs on your behalf automatically. Only use this if your data appears inconsistent across devices.";
+"advList.vc.listFetch" = "This will refetch all of this list's data from iCloud. Use this if this device appears to be missing some data from another one of your devices.";
+"advList.vc.signIn" = "Sign In with iCloud";
+"advList.vc.singInExplain" = "You currently aren't signed into iCloud on your device.\n\nPlease visit the Settings app to sign in, and all of your data will then begin to sync automatically.";
+"advList.vc.noCon" = "Please connect to WiFi or ensure you have a celluar connection to sync your list with iCloud.";
+"advList.vc.doneList" = "List Sync Completed.";
+"advList.vc.doneFetch" = "List Fetch Completed.";
+"advList.vc.completed" = "Sync Completed.";
+"advList.vc.error" = "Sync finished with an error. Please contact support with the following message: %@";
+"advList.vc.appFetchFailed" = "\n\nCloudKit database is not configured.";
+
+/* Email Sender */
+"email.copy" = "Copy Support Email";
+"email.twitter" = "Open Twitter";
+"email.client" = "No Email Client Found";
+"email.noClient" = "A default mail service isn't set on your device.\n\nYou can reach us on Twitter, or send us an email to hi@spendstack.com as well.";
+
+/* About VC */
+"about.vc.title" = "About";
+"about.vc.version" = "Spend Stack Version ";
+"about.vc.build" = "Build ";
+"about.vc.design" = "Designed and developed\nby Dreaming In Binary LLC.";
+
+/* Privacy VC */
+"privacy.vc.title" = "Privacy Policy";
+"privacy.vc.subhead1" = "Location Data";
+"privacy.vc.explain1" = "If you're within the United States, we request your location to find the local sales tax of the area. This information is requested from Sale-Tax.com. We do not store or persist your location data in any form, and it is discarded immediately after a sales tax amount is found.";
+"privacy.vc.subhead2" = "Debugging Data";
+"privacy.vc.explain2" = "We use Apple's opt-in service for crash reporting. Your device, version of iOS and the date of when the crash occurred will be viewable by us. However, no personally identifiable information is kept by us or sent to Bug Snag. The only things we will see are what steps were taken before the crash occurred. We will not see any of the data you've entered such as the name of your lists, items, notes or images.";
+"privacy.vc.subhead3" = "Personal Data";
+"privacy.vc.explain3" = "Put simply, nothing you enter in Spend Stack is ever viewable by us. For debugging purposes, we may ask you to provide this kind of information to troubleshoot an issue. Otherwise, it is written directly to your device and any data that's synced is done so via Apple's iCloud services and is not accessible to us.";
+"privacy.vc.question" = "Any Questions?";
+"privacy.vc.contact" = "If you have any questions at all about your data, please don't hesitate to contact us. We're happy to answer anything!";
+
+/* Open Source VC */
+"openSource.vc.title" = "Open Source";
+"openSrouce.vc.header" = "Libraries";
+"openSource.vc.masonry" = "Used to create our user interfaces.";
+"openSource.vc.ig" = "Used to reload your lists.";
+"openSource.vc.fmdb" = "Used to store your data locally.";
+
+/* Create List VC */
+"createList.vc.title" = "Create a List";
+"createList.vc.untitled" = "Untitled List";
+"createList.vc.apply" = "Apply %@";
+"createList.vc.manualEnterTax" = "tax rate";
+"createList.vc.set" = "Set Tax Rate";
+"createList.vc.setTo" = "Tax rate set to %@";
+"createList.vc.checks" = "Make Check List";
+"createList.vc.location" = "By Location";
+"createList.vc.use" = "Use %@ (%@)";
+"createList.vc.manually" = "Enter Manually";
+"createList.vc.edit" = "Edit Tax Rate";
+"createList.vc.removeTax" = "Remove Tax Rate";
+"createList.vc.imgAcc" = "Learn more about how sales tax works.";
+"createList.vc.imgAcc2" = "Learn more about how check lists work.";
+"createList.vc.currency" = "Currency (%@)";
+
+/* Tax Util */
+"taxUtil.tax" = "Sales Tax";
+
+/* Tax Permissions VC */
+"taxPerm.main" = "Spend Stack needs to know your location to find your local sales tax.\n\nIf that sounds good, please grant us location permissions.";
+"taxPerm.grant" = "Grant Permission";
+"taxPerm.steps" = "Please open your %@ settings to grant us permission to temporarily view your location.";
+"taxPerm.disabled" = "Location Services Disabled";
+
+/* Find Tax Rate VC */
+"findTax.vc.title" = "Find Tax Rate";
+"findTax.vc.good" = "Looks Good";
+"findTax.vc.manual" = "Enter Manually";
+"findTax.vc.locating" = "Locating...";
+"findTax.vc.credit" = "Sales tax data provided by Sale-Tax.com";
+"findTax.vc.credit2" = "Sale-Tax.com";
+"findTax.vc.found" = "Local sales tax is %@";
+"findTax.vc.error" = "We're unable to determine your location. You can enter a tax rate manually or contact us to get help.";
+
+/* Enter Tax Rate VC */
+"enterTax.vc.title" = "Enter Tax Rate";
+"enterTax.vc.change" = "No, I'll Change It";
+"enterTax.vc.adjust" = "Adjust Tax Rate?";
+
+/* List VC */
+"list.vc.deleteItems" = "Delete Items";
+"list.vc.deleteItem" = "Delete Item";
+"list.vc.confirmDeleteItems" = "Would you like to delete the selected items?";
+"list.vc.confirmDeleteItem" = "Would you like to delete the selected item?";
+"list.vc.collabDetails" = "Collaboration Details";
+"list.vc.collabPrompt" = "Collaborate with Others";
+"list.vc.setTag" = "Set Tag";
+"list.vc.settings" = "List Settings";
+"list.vc.restore" = "Restore List";
+"list.vc.leaveDeleted" = "Leave Deleted";
+"list.vc.isDeleted" = "List Deleted";
+"list.vc.isDeletedInfo" = "This list was deleted. Do you want to restore it, or leave it deleted?";
+"list.vc.empty" = "Add an item by tapping the + icon below";
+"list.vc.text" = "Text";
+"list.vc.image" = "Image";
+"list.vc.pdf" = "PDF";
+"list.vc.share" = "Share List";
+"list.vc.shareMethod" = "How would you like to share your list?";
+
+/* Breakdown VC */
+"breakdown.vc.title" = "Total";
+"breakdown.vc.subtotal" = "Subtotal:";
+"breakdown.vc.tax" = "Tax:";
+"breakdown.vc.discounts" = "Discounts:";
+"breakdown.vc.totalColon" = "Total:";
+"breakdown.vc.all" = "All Items";
+"breakdown.vc.recurring" = "Recurring Costs";
+
+/* Breakdown View */
+"breakdown.subtotal" = "Subtotal";
+"breakdown.tax" = "Tax";
+"breakdown.discounts" = "Discounts";
+"breakdown.total" = "Total";
+
+/* Tag Insight Views */
+"allItems.title" = "All Items";
+"allItems.item" = "item";
+"allItems.items" = "items";
+"allItems.count" = "Count:";
+"allItems.average" = "Average:";
+"allItems.na" = "N/A";
+"allitems.highest" = "Highest:";
+"allItems.lowest" = "Lowest:";
+"tagInsights.bar" = "Bar Chart";
+"tagInsights.pie" = "Pie Chart";
+"tagInsights.noData" = "No Data.";
+"tagInsights.empty" = "This list has no tags.\nWhen you add some, we'll show insights about each of them here.";
+"tagInsights.acc" = "%@, Tag Color %@";
+
+/* QuickAdd View */
+"quickAdd.empty" = "Item Name...";
+"quickAdd.defaultItem" = "New Item";
+
+/* List Settings VC*/
+"list.vc.changeTax" = "Change Tax Rate (%@)";
+"list.vc.title" = "List Options and Sharing";
+"list.vc.collab" = "Collaboration Details";
+"list.vc.collabInit" = "Collaborate with Others";
+"list.vc.editName" = "List Name";
+"list.vc.removeAll" = "Remove All Items";
+"list.vc.lock" = "Secure List with %@";
+"authContext.authType.pin" = "PIN";
+"authContext.biometryType.faceID" = "Face ID";
+"authContext.biometryType.touchID" = "Touch ID";
+"list.vc.check" = "Show Checkboxes";
+"list.vc.advanced" = "Advanced";
+"list.vc.header1" = "Share and Export";
+"list.vc.header2" = "Edit List";
+"list.vc.header3" = "Options";
+"list.vc.clear" = "Clear List";
+"list.vc.clear1" = "This will delete all the items on your list. Are you sure?";
+"list.vc.lockNo" = "Locking Unavailable";
+"list.vc.lockNoReason" = "Your device doesn't have authentication enabled. To lock lists, setup either a Face ID, Touch ID or a PIN within iOS to use this feature.";
+"list.vc.currency" = "Currency";
+"list.vc.chooseCurrency" = "Select Currency";
+
+/* List Exporter */
+"export.subTotal" = "\n\n Subtotal: %@";
+"export.tax" = "\n Tax: %@";
+"export.discount" = "\n Discounts: %@";
+"export.total" = "\n Total: %@";
+"export.html.cost" = "<h4>Cost</h4><p>";
+"export.html.subTotal" = "<strong>Subtotal:</strong><em>%@</em><br />";
+"export.html.tax" = "<strong>Tax:</strong><em>%@</em><br />";
+"export.html.discount" = "<strong>Discounts:</strong><em>%@</em><br />";
+"export.html.total" = "<strong>Total:</strong><em>%@</em><br />";
+
+/* List Name VC */
+"listName.vc.title" = "Edit List Name";
+"listName.vc.titleItem" = "Edit Item Name";
+
+/* List Item Editing Cells */
+"listEdit.include" = "Include %@";
+"listEdit.noTax" = "This list has no tax rate set.";
+"listEdit.remove" = "Remove Discount";
+"listEdit.add" = "Add Discount";
+"listEdit.amountOff" = "Amount Off";
+"listEdit.percentOff" = "Percentage Off";
+"listEdit.discountType" = "Choose Discount Type";
+"listEdit.apply" = "Apply a certain amount or percentage off.";
+"listEdit.removePhoto" = "Remove Photo";
+"listEdit.removeLink" = "Remove Link";
+"listEdit.addPhoto" = "Add Photo";
+"listEdit.addLink" = "Add Link";
+"listEdit.regularPricing" = "Regular";
+"listEdit.weightedPricing" = "By Weight";
+"listEdit.recurringPricing" = "Recurring";
+"listEdit.attachImage" = "Image";
+"listEdit.attachLink" = "Link";
+"listEdit.price" = "Price:";
+"listEdit.per" = " per %@";
+"listEdit.subtotal" = "Subtotal:";
+"listEdit.weight" = "Weight:";
+"listEdit.discount" = "Discount:";
+"listEdit.cycle" = "Cycle:";
+"listEdit.tax" = "Tax:";
+"listEdit.total" = "Total:";
+"listEdit.note" = "Leave a note about this item.";
+"listEdit.addTag" = "Add a Tag";
+"listEdit.noImage" = "We had an issue downloading this image.\nPlease try again later.";
+"listEdit.noLink" = "We had an issue fetching this link.\nPlease try again later.";
+"listEdit.image.acc" = "Tap to view image.";
+"listEdit.image.attach" = "Attach an Image";
+"listEdit.link.attach" = "Attach a Link";
+"listEdit.header1" = "Pricing";
+"listEdit.header2" = "Quantity";
+"listEdit.header3" = "Notes";
+"listEdit.header4" = "Tag";
+"listEdit.header5" = "Attachments";
+"listEdit.loadingImage" = "Loading image";
+"listEdit.day" = "Day";
+"listEdit.dayColon" = "Day:";
+"listEdit.days" = "Days";
+"listEdit.week" = "Week";
+"listEdit.weekColon" = "Week:";
+"listEdit.weeks" = "Weeks";
+"listEdit.month" = "Month";
+"listEdit.monthColon" = "Month:";
+"listEdit.months" = "Months";
+"listEdit.year" = "Year";
+"listEdit.yearColon" = "Year:";
+"listEdit.years" = "Years";
+"listEdit.every" = "Once Every";
+"listEdit.daily" = "Daily";
+"listEdit.weekly" = "Weekly";
+"listEdit.monthly" = "Monthly";
+"listEdit.yearly" = "Yearly";
+"listEdit.multDaily" = "Every %@ days";
+"listEdit.multWeekly" = "Every %@ weeks";
+"listEdit.multMonthly" = "Every %@ months";
+"listEdit.multYearly" = "Every %@ years";
+"listEdit.date" = "Date:";
+"listEdit.setDate" = "Set a Date";
+
+/* Locking */
+"lock.try" = "Try Again";
+
+/* CK Manager*/
+"ck.manager.noData" = "No Data Available";
+"ck.manager.noDataPrompt" = "Please try this once again when you're back on WiFi or have a cellular connection.";
+
+/* List Item Cell */
+"listItem.cell.hint" = "Double tap to open this list.";
+"listItem.cell.zero" = "0 items";
+"listItem.cell.one" = "1 item";
+"listItem.cell.plural" = "%lu items";
+"listItem.cell.locked" = "locked";
+"listItem.cell.shared" = "shared list";
+"listItem.cell.acCamera" = "Camera Roll";
+"listItem.cell.acTakePhoto" = "Take Photo";
+"listItem.cell.acDocs" = "Documents";
+
+/* List Total Header */
+"listHeader.allItems" = "All Items";
+"listHeader.lbl.hint" = "View cost breakdown.";
+"listHeader.checked" = "Only Checked";
+"listHeader.unchecked" = "Only Unchecked";
+"listHeader.lbl.acVal" = "List total is %@ for %@ %@";
+"listHeader.btnPage.acVal" = "Change total to show %@ %@";
+
+/* Checkbox */
+"checkbox.checked" = "Checked Off";
+"checkbox.unchecked" = "Unchecked";
+
+/* SelectLists VC*/
+"selectLists.move" = "Move";
+"selectLists.copy" = "Copy";
+"selectLists.empty" = "You've only got one list.\nCreate some more to move or copy items to them.";
+
+/* DragThing */
+"dragThing.movedSingle" = "Moved %@ to %@";
+"dragThing.moved" = "Moved %@ %@ to %@";
+"dragThing.copiedSingle" = "Copied %@ to %@";
+"dragThing.checkedAll" = "All items checked off";
+"dragThing.uncheckedAll" = "Unchecked all items";
+"dragThing.deletedAll" = "Removed all items";
+
+/* Select Currency VC */
+"currencyVC.searchCurrencies" = "Search Currencies";
+
+/* Loading HUD */
+"hud.duping" = "Duplicating";
+
+/* Contextuals */
+"ctx.title.list" = "List Options";
+"ctx.title.item" = "Item Options";
+"ctx.ac.move" = "Move";
+"ctx.ac.copy" = "Copy";
+"ctx.ac.duplicate" = "Duplicate";
+"ctx.ac.info" = "Info";
+"ctx.ac.rename" = "Rename";
+"ctx.ac.removeAllItems" = "Remove All Items";
+"ctx.ac.taxOn" = "Add Sales Tax";
+"ctx.ac.taxOff" = "Remove Sales Tax";
+"ctx.ac.check" = "Check Off";
+"ctx.ac.uncheck" = "Uncheck";
+"ctx.ac.checkAll" = "Check All";
+"ctx.ac.uncheckAll" = "Uncheck All";
+"ctx.ac.newWindow" = "Open in New Window";
+"ctx.ac.invite" = "Invite People";
+"ctx.ac.window" = "New Window";
+"ctx.ac.addTag" = "Add Tag";
+"ctx.ac.removeTag" = "Remove Tag";
+"ctx.ac.export.trailing" = "Export...";
+"ctx.ac.editDate" = "Date";
+"ctx.ac.openLink" = "Open Link";
+"ctx.asqa.openList" = "Open %@";
+
+/* Popovers */
+"pop.delete" = "Would you like to delete this item?";
+
+/* ChangeIcon VC */
+"changeIcon.title" = "Select Icon";
+"changeIcon.preview" = "Icon Preview";
+"changeIcon.hd" = "Tap an icon to preview it in high resolution.";
+"changeIcon.default" = "Default";
+
+/* Attach Link VC */
+"attachLink.title" = "Enter Link";
+
+/* Drag and Drop */
+"drop.noteOnItem" = "Note added to ";
+"drop.linkOnItem" = "Link added to ";
+"drop.imageOnItem" = "Image added to ";
+
+/* Inline Tags */
+"tagInline.sortTitle" = "Sort Tags";
+"tagInline.emtpy" = "Tap the plus button to create a tag.";
+
+//------ WIDGET EXTENSIONS ------ //
+"ext.widget.subs.displayName" = "Recurring Costs";
+"ext.widget.subs.description" = "View recurring costs for this month.";
+"ext.widget.subs.nextUp" = "Next up";
+"ext.widget.subs.nothingDue" = "No items due.";
+
+"ext.widget.tags.displayName" = "Tag Insights";
+"ext.widget.tags.description" = "View totals from items using a particular tag.";
+"ext.widget.tags.rangeWeek" = "over this week";
+"ext.widget.tags.over" = "over %@";
+"ext.widget.tags.spending" = "spending %@.";
+"ext.widget.tags.highest" = "Highest";
+"ext.widget.tags.lowest" = "Lowest";
+"ext.widget.tags.total" = "Total";
+"ext.widget.tags.count" = "Count";
+"ext.widget.tags.item" = "item";
+"ext.widget.tags.items" = "items";
+
+"ext.widget.lists.displayName" = "List Insights";
+"ext.widget.lists.description" = "View insights for a list.";
+"ext.widget.lists.unchecked" = "Unchecked:";
+"ext.widget.lists.checked" = "Checked:";
+"ext.widget.lists.all" = "All:";
+"ext.widget.lists.average" = "Average:";
+"ext.widget.lists.highest" = "Highest:";
+"ext.widget.lists.lowest" = "Lowest:";
+"ext.widget.lists.tags" = "Tags";
+"ext.widget.lists.items" = "Items";
+
+"ext.appleCard.total" = "Total";
+"ext.appleCard.noCharges" =  "No charges for this month.";
+
+//------ NUDGES ------ //
+"nudgeTitleCTXMenu" = "Copy, paste and more";
+"nudgeMsgCTXMenu" = "Long press on items or lists to duplicate them, edit tags and more.";

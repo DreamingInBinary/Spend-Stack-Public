@@ -1,0 +1,6 @@
+framework module Pods_Spend_Stack {
+  umbrella header "Pods-Spend Stack-umbrella.h"
+
+  export *
+  module * { export * }
+}

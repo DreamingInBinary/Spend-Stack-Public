@@ -1,0 +1,6 @@
+framework module Pods_TagInsightsWidgetExtension {
+  umbrella header "Pods-TagInsightsWidgetExtension-umbrella.h"
+
+  export *
+  module * { export * }
+}

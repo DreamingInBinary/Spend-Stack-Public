@@ -1,0 +1,11 @@
+/* 
+  InfoPlist.strings
+  Spend Stack
+
+  Created by Jordan Morgan on 1/2/17.
+  Copyright © 2017 Jordan Morgan. All rights reserved.
+*/
+
+"CFBundleDisplayName" = "Spend Stack";
+"NSLocationWhenInUseUsageDescription" = "We'll find your local sales tax from your location, and then stop tracking it.";
+"NSHumanReadableCopyright" = "Copyright © 2020 Dreaming In Binary LLC.";

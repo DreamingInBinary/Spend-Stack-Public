@@ -1,0 +1,577 @@
+/*
+ Localizable.strings
+ Spend Stack
+ 
+ Created by Jordan Morgan on 1/2/17.
+ Copyright © 2017 Jordan Morgan. All rights reserved.
+ */
+
+/* General */
+"general.help" = "Hilfe";
+"general.edit" = "Bearbeiten";
+"general.yes" = "Ja";
+"general.continue" = "Fortsetzen";
+"general.cancel" = "Abbrechen";
+"general.settings" = "Einstellungen";
+"general.delete" = "Löschen";
+"general.sort" = "Sortieren";
+"general.pdf" = "PDF";
+"general.print.no" = "Drucken nicht verfügbar";
+"general.print.no2" = "Das Drucken ist auf diesem Gerät nicht aktiviert.";
+"general.shareList" = "Liste teilen";
+"general.shareLists" = "Listen teilen";
+"general.shareList.method" = "Wie möchtest du deine Liste teilen?";
+"general.shareLists.method" = "Wie möchtest du deine Listen teilen?";
+"general.deleteList" = "Liste löschen";
+"general.deleteLists" = "Listen löschen";
+"general.deleteList.method" = "Möchtest du die ausgewählte Liste löschen?";
+"general.deleteLists.method" = "Möchtest du die ausgewählten Listen löschen?";
+"general.deleteList.yesConfirm" = "Liste löschen";
+"general.deleteListItems.yesConfirm" = "Alles löschen";
+"general.deleteList.shared" = "Möchtest du die geteilte Liste löschen?";
+"general.deleteList.sharedExp" = "Die Liste wird auf all deinen Geräten gelöscht. Tippe auf den Link, mit dem du eingeladen wurdest, um die Liste erneut zu öffnen.";
+"general.deleteList.sharedExp2" = "Wenn du diese freigegebene Liste löschst, haben andere Personen keinen Zugriff mehr und sie wird auf all deinen Geräten gelöscht.";
+"general.alphabetically" = "Alphabetisch";
+"general.newest" = "Neueste";
+"general.oldest" = "Älteste";
+"general.sort.lists" = "Listen sortieren";
+"general.choose" = "Wähle eine Option.";
+"general.lists" = "Listen";
+"general.advanced" = "Fortgeschritten";
+"general.about" = "Über";
+"general.noConnection" = "Keine Verbindung verfügbar";
+"general.contactSupport" = "Kontaktiere den Support";
+"general.contactUs" = "Kontaktiere uns";
+"general.ok" = "OK";
+"general.error.title" = "Entschuldigung";
+"general.noThanks" = "Nein danke";
+"general.openSettings" = "Einstellungen öffnen";
+"general.iPhone.possessive" = "iPhones";
+"general.iPad.possessive" = "iPads";
+"general.share" = "Teilen";
+"general.print" = "Drucken";
+"general.text" = "Text";
+"general.image" = "Bild";
+"general.untitled" = "Ohne Titel";
+"general.gotIt" = "Verstanden!";
+
+/* General Accessibility */
+"ac.tapToDismiss" = "Zum Entlassen zweimal tippen.";
+
+/* Errors */
+"error.appleCardImport" = "Die Datei konnte nicht gelesen werden.";
+"error.appleCardImport.noAccess" = "Wir haben keine Berechtigung, auf die Datei zuzugreifen.";
+
+/* Apple Card */
+"appleCard.header" = "Import für Apple Card ®";
+"appleCard.copy" = "Importiere deine Apple Card®-Umsätze in eine Liste in Spend Stack. Für jeden Umsatz erstellen wir ein Element für deine Liste. Diese Daten können nur von dir oder anderen Personen angezeigt werden, mit denen du deine Liste teilst.\n\nExportiere zunächst einen Apple Card®-Kontoauszug im CSV-Format in die Dateien-App.";
+"appleCard.start" = "Start";
+"appleCard.howTo" = "So exportierst du deinen Apple Card®-Kontoauszug.";
+"appleCard.import" = "%@ von %@ Elementen importiert.";
+"appleCard.done" = "Apple Card Import abgeschlossen";
+
+/* Bar Items */
+"barItem.scan" = "Barcode scannen";
+"barItem.listBreakdown" = "Listenaufschlüsselung";
+"barItem.listBreakdown.asc" = "Kosten der Liste anzeigen";
+"barItem.insights" = "Daten zur Liste";
+"barItem.addTag" = "Tag hinzufügen";
+"barItem.add" = "Hinzufügen";
+"barItem.addItem" = "Element hinzufügen";
+"barItem.kb" = "Tastatur schließen";
+"barItem.zeroes.asc" = "Doppelnull";
+"barItem.zeroes.ascHint" = "Füge zwei Nullen zum Betrag hinzu.";
+"barItem.export" = "Exportieren";
+"barItem.export.asc" = "Daten exportieren";
+"barItem.photo" = "Mach ein Foto";
+"barItem.docs" = "Dokumente anzeigen";
+"barItem.plusMinus" = "Positive Zahl umschalten";
+"barItem.plusMinus.asc" = "Schaltet zwischen einer negativen und einer positiven Zahl um.";
+"barItem.edit" = "Bearbeiten";
+"barItem.appleCard" = "Apple Card Kontoauszug importieren";
+
+/* Empty View */
+"emptyView.create" = "Tippe auf das Symbol unten rechts, um eine Liste zu erstellen.";
+
+/* Key Commands */
+"kc.create" = "Erstelle eine neue Liste";
+"kc.help" = "Öffne die Hilfe und mehr";
+
+/* First Run VC */
+"firstRun.vc.flexibile" = "Budgetiere mit Listen";
+"firstRun.vc.share" = "Erstelle Einkaufs-, Geburtstags- und sogar Budgetlisten, an denen du mit anderen zusammenarbeiten kannst.";
+"firstRun.vc.accurate" = "Auf den Punkt";
+"firstRun.vc.accurate2" = "Behalte die Preise aller Elemente mit Rabatten, Preisangaben nach Gewicht und mehr stets im Blick.";
+"firstRun.vc.tags" = "Tags";
+"firstRun.vc.organize" = "Kategorisiere und organisiere alles, indem du Tags erstellst.";
+"firstRun.vc.headerText" = "Willkommen bei Spend Stack";
+"firstRun.vc.headerText2" = "Willkommen bei \nSpend Stack";
+
+/* Expired */
+"betaExpired.headerText" = "Danke für's Testen von Spend Stack";
+"betaExpired.headerText2" = "Danke für's Testen von \nSpend Stack";
+"betaExpired.detail" = "Dieser Build ist abgelaufen. Bitte lade die Version aus dem App Store herunter.";
+"betaExpired.download" = "Herunterladen";
+
+/* Help and More VC */
+"ham.vc.title" = "Hilfe und mehr";
+"ham.vc.manage" = "Tags verwalten";
+"ham.vc.learn" = "Mehr erfahren";
+"ham.vc.tags" = "Tags erstellen oder bearbeiten.";
+"ham.vc.totals" = "Tag-Summen anzeigen";
+"ham.vc.listTotal" = "Gesamte Liste anzeigen";
+"ham.vc.more" = "Synchronisierung und andere Optionen.";
+"ham.vc.contact" = "Kontaktiere uns";
+"ham.vc.question" = "Hole dir Hilfe oder stelle eine Frage.";
+"ham.vc.tweet" = "Tweete uns etwas";
+"ham.vc.upToDate" = "Auf dem Laufenden bleiben.";
+"ham.vc.reddit" = "Reddit Community";
+"ham.vc.reddit2" = "Chatte mit anderen Benutzern.";
+"ham.vc.version" = "Versionsinformation.";
+"ham.vc.review" = "Spend Stack bewerten";
+"ham.vc.review2" = "Lasse uns wissen, wie dir Spend Stack gefällt.";
+"ham.vc.privacy" = "Datenschutz-Bestimmungen";
+"ham.vc.privacy2" = "Deine Daten gehören dir.";
+"ham.vc.acknowledge" = "Danksagung";
+"ham.vc.acknowledge2" = "Von uns verwendete Open Source-Bibliotheken.";
+"ham.vc.header00" = "Tipps";
+"ham.vc.header0" = "Aussehen";
+"ham.vc.header1" = "Listeneinstellungen";
+"ham.vc.header2" = "Kontakt";
+"ham.vc.header3" = "Kolophon";
+"ham.vc.header4" = "Legal";
+"ham.vc.wholeNum" = "Verwende ganze Zahlen";
+"ham.vc.localize" = "Übersetzung vorschlagen";
+"ham.vc.localize2" = "Verbessere unsere Lokalisierung.";
+"ham.vc.appearance" = "Symbol bearbeiten";
+"ham.vc.appearance2" = "Finde einen neuen Favoriten.";
+"ham.vc.guides" = "Neu bei Spend Stack?";
+"ham.vc.guides2" = "Fang hier an.";
+
+/* Explainer Utils and VC */
+"ex.util.tag" = "Tags";
+"ex.util.tagTotal" = "Tag-Zwischensumme";
+"ex.util.listTotal" = "Summen auflisten";
+"ex.util.wholeNum" = "Ganze Zahlen";
+"ex.util.tax" = "Mehrwertsteuersatz";
+"ex.util.check" = "Checklisten";
+"ex.util.currency" = "Eine Währung auswählen";
+"ex.util.acc1" = "Bild von Listen-Tags.";
+"ex.util.acc2" = "Bild der Zwischensumme eines Tags.";
+"ex.util.acc3" = "Bild des Gesamtbetrags einer Liste.";
+"ex.util.acc4" = "Bild der MwSt. einer Liste.";
+"ex.util.acc5" = "Bild der Checkboxen einer Liste.";
+"ex.util.acc6" = "Bild von diversen Währungen.";
+"ex.util.subHead1" = "Organisiere Elemente mit Tags.";
+"ex.util.subHead2" = "Anzeigen des Gesamtpreises der Artikel eines Tags.";
+"ex.util.subhead3" = "Der Gesamtbetrag deiner Liste.";
+"ex.util.subhead4" = "Währungen mit ganzen Zahlen.";
+"ex.util.subhead5" = "Mehrwertsteuer automatisch auf die Kosten eines Elements anwenden.";
+"ex.util.subhead6" = "Checkboxen anzeigen.";
+"ex.util.subhead7" = "Eine Währung auswählen.";
+"ex.util.detail1" = "Mit Tags kannst du ähnliche Elemente gruppieren. Verwende sie beispielsweise, um Lebensmittel nach Produktart zu gruppieren, Geburtstagsgeschenke für deine Familie zu sammeln, Dinge zu budgetieren, oder für beliebige andere Kategorien, in die du Elemente einordnen möchtest.\n\nAlle Tags, die du erstellst, werden automatisch mit deinen anderen Geräten synchronisiert, die mit demselben iCloud-Account wie diesem angemeldet sind, und alle Tags, die sich in einer geteilten Liste befinden, werden auch für die Personen angezeigt, mit denen du die Liste geteilt hast.\n\nTags sind für alle Listen verfügbar, sodass du nicht immer wieder dieselben erstellen musst. Wenn du einen Tag bearbeitest, wird die Änderung in allen Listen sichtbar sein, auf denen er verwendet wird.";
+"ex.util.detail2" = "Wenn diese Option aktiviert ist, wird am unteren Rand jedes Abschnitts die Gesamtsumme der Elemente, die zu diesem Tag gehören, angezeigt.\n\nAuf diese Weise kannst du leicht sehen, wie viel von der Gesamtsumme deiner Liste von jedem Tag und allen darin enthaltenen Elementen stammt.";
+"ex.util.detail3" = "Dies zeigt die Gesamtsumme der Elemente in deiner Liste. Du kannst darauf tippen, um eine detailliertere Erläuterung der Zwischensumme, Steuern und Rabattbeträge anzuzeigen.\n\nAuch wenn du dies deaktiviert hast, kannst du jederzeit auf das Taschenrechnersymbol unten links tippen, um die Aufschlüsselung des Gesamtbetrags anzuzeigen.";
+"ex.util.detail4" = "Wenn dies aktiviert ist, werden alle Währungsdaten in Spend Stackals ganze Zahl formatiert. Infolgedessen ist die Eingabe von Kosten auch nur noch ganzzahlig möglich.\n\nDies ist nützlich für Regionen, in denen Währungen keine Dezimalzahlen verwenden, z.B. 1 anstelle von 1,00.";
+"ex.util.detail5" = "Wenn diese Option aktiviert ist, wird Spend Stack automatisch die Steuern für deine Region auf die Kosten eines Elements draufrechnen. Du kannst dies auch pro Element aktivieren oder deaktivieren und den Steuersatz für die Liste später in den Einstellungen ändern.";
+"ex.util.detail6" = "Wenn diese Option aktiviert ist, zeigt Spend Stack eine Checkbox neben jedem Element an. Du kannst dies später in den Einstellungen ein- oder ausschalten.";
+"ex.util.detail7" = "Du kannst eine beliebige Währung für deine Liste verwenden. Dies kann später in den Listeneinstellungen geändert werden.";
+
+/* Tags VC */
+"tags.vc.header" = "Wähle einen Tag zum Bearbeiten.";
+"tags.vc.empty" = "Tippe zum Erstellen eines Tags auf das Symbol unten rechts.";
+"tags.vc.undo" = "Tag löschen";
+"tags.vc.choose" = "Wählen einen Tag.";
+"tags.vc.color" = "Farbe";
+
+/* TagsManager VC */
+"tagsManager.vc.edit" = "Tag bearbeiten";
+"tagsManager.vc.create" = "Erstelle einen Tag";
+"tagsManager.vc.name" = "Erstelle einen Tag";
+"tagsManager.vc.restore" = "Erstelle einen Tag";
+"tagsManager.vc.leave" = "Gelöscht lassen";
+"tagsManager.vc.deleted" = "Tag gelöscht";
+"tagsManager.vc.choice" = "Dieser Tag wurde auf einem anderen Gerät gelöscht. Möchtestdu ihn wiederherstellen oder ihn gelöscht lassen?";
+"tagsManager.vc.confirmDelete" = "Möchtest du diesen Tag löschen?";
+"tagsManager.vc.newTag" = "Neuer Tag";
+
+/* Advanced List Options VC */
+"advList.vc.syncing" = "Liste synchronisieren ...";
+"advList.vc.fetching" = "Liste wird geladen ...";
+"advList.vc.performing" = "Synchronisierung wird durchgeführt ...";
+"advList.vc.performing2" = "Synchronisierung läuft ...";
+"advList.vc.title" = "Fortgeschritten";
+"avdList.vc.iCloud" = "iCloud Listen-Synchronisierung";
+"advList.vc.resync" = "Liste synchronisieren";
+"advList.vc.explainSync" = "Dadurch werden alle Daten dieser Liste, wie sie jetzt auf diesem Gerät angezeigt werden, erneut an iCloud gesendet. Verwende diese Option, wenn auf einem anderen Gerät Daten von diesem Gerät fehlen.";
+"advList.vc.fetch" = "Liste laden";
+"advList.vc.explainFetch" = "Dadurch werden alle Daten dieser Liste aus iCloud geladen. Verwende diese Option, wenn auf diesem Gerät Daten von einem anderen Gerät fehlen.";
+"advList.vc.performFetch" = "Jetzt laden";
+"advList.vc.allFetch" = "Dadurch werden alle Spend Stack-Daten von iCloud abgerufen. Spend Stack führt automatisch Synchronisierungen für dich durch. Verwende diese Option nur, wenn deine Daten geräteübergreifend inkonsistent sind.";
+"advList.vc.listFetch" = "Dadurch werden alle Daten dieser Liste aus iCloud abgerufen. Verwende diese Option, wenn auf diesem Gerät Daten von einem anderen Gerät fehlen.";
+"advList.vc.signIn" = "Mit iCloud anmelden";
+"advList.vc.singInExplain" = "Du bist derzeit auf deinem Gerät nicht bei iCloud angemeldet.\n\nWechsle zur Einstellungen-App, um dich anzumelden. Alle deine Daten werden dann automatisch synchronisiert.";
+"advList.vc.noCon" = "Stelle eine WLAN-Verbindung her oder stelle sicher, dass du eine Mobilfunkverbindung hast, um deine Liste mit iCloud zu synchronisieren.";
+"advList.vc.doneList" = "Listensynchronisation abgeschlossen.";
+"advList.vc.doneFetch" = "Listenabruf abgeschlossen.";
+"advList.vc.completed" = "Synchronisierung abgeschlossen.";
+"advList.vc.error" = "Bei der Synchronisierung ist ein Fehler aufgetreten. Bitte kontaktiere den Support mit der folgenden Nachricht: %@";
+"advList.vc.appFetchFailed" = "\n\nCloudKit-Datenbank ist nicht konfiguriert.";
+
+/* Email Sender */
+"email.copy" = "Support-E-Mail-Adresse kopieren";
+"email.twitter" = "Öffne Twitter";
+"email.client" = "Kein E-Mail-Client gefunden";
+"email.noClient" = "Auf deinem Gerät ist kein Standard-E-Mail-Dienst festgelegt.\n\nDu kannst uns auf Twitter erreichen oder eine E-Mail an hi@spendstack.com senden.";
+
+/* About VC */
+"about.vc.title" = "Über";
+"about.vc.version" = "Spend Stack Version ";
+"about.vc.build" = "Build ";
+"about.vc.design" = "Entworfen und entwickelt \nvon Dreaming In Binary LLC.";
+
+/* Privacy VC */
+"privacy.vc.title" = "Datenschutz-Bestimmungen";
+"privacy.vc.subhead1" = "Standortdaten";
+"privacy.vc.explain1" = "Wenn du dich in den USA befindest, fragen wir deinen Standortab, um die örtliche Mehrwertsteuer in deiner Region zu bestimmen. Diese Informationen werden von Sale-Tax.com angefordert. Wir speichern deine Standortdaten in keiner Form und sie werden sofort gelöscht, nachdem ein Mehrwertsteuerbetrag ermittelt wurde.";
+"privacy.vc.subhead2" = "Debuggen von Daten";
+"privacy.vc.explain2" = "Wir verwenden Apple für das Sammeln von Absturzmeldungungen. Ihr Gerät, Ihre iOS-Version und das Datum, an dem der Absturz aufgetreten ist, werden uns dabei angezeigt. Es werden jedoch keine personenbezogenen Daten von uns gespeichert oder an Bug Snag gesendet. Wir können nur sehen, welche Schritte vor dem Absturz unternommen wurden. Wir sehen keine der von dir eingegebenen Daten wie den Namen deiner Listen, Elemente, Notizen oder Bilder.";
+"privacy.vc.subhead3" = "Persönliche Daten";
+"privacy.vc.explain3" = "Einfach ausgedrückt, nichts, was du in Spend Stack eingibst, kann von uns gesehen werden. Zu Debugging-Zwecken bitten wir dich möglicherweise, diese Art von Informationen bereitzustellen, um ein Problem zu beheben. Andernfalls wird alles direkt auf deinem Gerät gespeichert, und alle synchronisierten Daten werden über die iCloud-Dienste von Apple übertragen und sind für uns nicht zugänglich.";
+"privacy.vc.question" = "Irgendwelche Fragen?";
+"privacy.vc.contact" = "Wenn du Fragen zu deinen Daten hast, zögere bitte nicht, uns zu kontaktieren. Wir beantworten gerne jede Anfrage!";
+
+/* Open Source VC */
+"openSource.vc.title" = "Open Source";
+"openSrouce.vc.header" = "Bibliotheken";
+"openSource.vc.masonry" = "Wird zum Erstellen unserer Benutzeroberflächen verwendet.";
+"openSource.vc.ig" = "Wird verwendet, um deine Listen neu zu laden.";
+"openSource.vc.fmdb" = "Dient zum lokalen Speichern deiner Daten.";
+
+/* Create List VC */
+"createList.vc.title" = "Erstelle eine Liste";
+"createList.vc.untitled" = "Liste ohne Titel";
+"createList.vc.apply" = "%@ anwenden";
+"createList.vc.manualEnterTax" = "Geben Sie einen Steuersatz ein";
+"createList.vc.set" = "Steuersatz einstellen";
+"createList.vc.setTo" = "Steuersatz auf %@";
+"createList.vc.checks" = "Checkboxen anzeigen";
+"createList.vc.location" = "Nach Ort";
+"createList.vc.use" = "%@ ( %@ ) verwenden";
+"createList.vc.manually" = "Manuell eintragen";
+"createList.vc.edit" = "Steuersatz bearbeiten";
+"createList.vc.removeTax" = "Steuersatz entfernen";
+"createList.vc.imgAcc" = "Erfahre mehr darüber, wie die Mehrwertsteuer funktioniert";
+"createList.vc.imgAcc2" = "Erfahre mehr über die Funktionsweise von Checklisten.";
+"createList.vc.currency" = "Währung (%@)";
+
+/* Tax Util */
+"taxUtil.tax" = "Mehrwertsteuer";
+
+/* Tax Permissions VC */
+"taxPerm.main" = "Spend Stack muss deinen Standort kennen, um deine lokale Mehrwertsteuer zu ermitteln. Wenn das gut klingt, erteile uns bitte Standortberechtigungen.";
+"taxPerm.grant" = "Erlaubnis erteilen";
+"taxPerm.steps" = "Öffne deine %@ -Einstellungen, um uns die Erlaubnis zu erteilen, deinen Standort vorübergehend abzufragen.";
+"taxPerm.disabled" = "Ortungsdienste deaktiviert";
+
+/* Find Tax Rate VC */
+"findTax.vc.title" = "Steuersatz suchen";
+"findTax.vc.good" = "Sieht gut aus";
+"findTax.vc.manual" = "Manuell eintragen";
+"findTax.vc.locating" = "Ortung ...";
+"findTax.vc.credit" = "Mehrwertsteuerdaten stammen von Sale-Tax.com";
+"findTax.vc.credit2" = "Sale-Tax.com";
+"findTax.vc.found" = "Die lokale Mehrwertsteuer beträgt %@";
+"findTax.vc.error" = "Wir können deinen Standort nicht ermitteln. Du kannst den Steuersatz manuell eingeben oder uns kontaktieren, um Hilfe zu erhalten.";
+
+/* Enter Tax Rate VC */
+"enterTax.vc.title" = "Steuersatz eingeben";
+"enterTax.vc.change" = "Nein, ich werde ihn ändern";
+"enterTax.vc.adjust" = "Steuersatz anpassen?";
+
+/* List VC */
+"list.vc.deleteItems" = "Elemente löschen";
+"list.vc.deleteItem" = "Element löschen";
+"list.vc.confirmDeleteItems" = "Möchtest du die ausgewählten Elemente löschen?";
+"list.vc.confirmDeleteItem" = "Möchtest du das ausgewählte Element löschen?";
+"list.vc.collabDetails" = "Details zur Zusammenarbeit";
+"list.vc.collabPrompt" = "Mit anderen zusammenarbeiten";
+"list.vc.setTag" = "Tag setzen";
+"list.vc.settings" = "Listeneinstellungen";
+"list.vc.restore" = "Liste wiederherstellen";
+"list.vc.leaveDeleted" = "Gelöscht lassen";
+"list.vc.isDeleted" = "Liste gelöscht";
+"list.vc.isDeletedInfo" = "Diese Liste wurde gelöscht. Möchtest du sie wiederherstellen oder gelöscht lassen?";
+"list.vc.empty" = "Füge deiner Liste einen Artikel hinzu, indem du unten auf das + Symbol tippst";
+"list.vc.text" = "Text";
+"list.vc.image" = "Bild";
+"list.vc.pdf" = "PDF";
+"list.vc.share" = "Liste teilen";
+"list.vc.shareMethod" = "Wie möchtest du deine Liste teilen?";
+
+/* Breakdown VC */
+"breakdown.vc.title" = "Gesamt";
+"breakdown.vc.subtotal" = "Zwischensumme:";
+"breakdown.vc.tax" = "MwSt:";
+"breakdown.vc.discounts" = "Rabatte:";
+"breakdown.vc.totalColon" = "Gesamt:";
+"breakdown.vc.all" = "Alle Elemente";
+"breakdown.vc.recurring" = "Wiederkehrende Kosten";
+
+/* Breakdown View */
+"breakdown.subtotal" = "Zwischensumme";
+"breakdown.tax" = "MwSt";
+"breakdown.discounts" = "Rabatte";
+"breakdown.total" = "Gesamt";
+
+/* Tag Insight Views */
+"allItems.title" = "Alle Elemente";
+"allItems.item" = "Element";
+"allItems.items" = "Elemente";
+"allItems.count" = "Anzahl:";
+"allItems.average" = "Durchschnitt:";
+"allItems.na" = "N/A";
+"allitems.highest" = "Höchster:";
+"allItems.lowest" = "Niedrigster:";
+"tagInsights.bar" = "Balkendiagramm";
+"tagInsights.pie" = "Kuchendiagramm";
+"tagInsights.noData" = "Keine Daten.";
+"tagInsights.empty" = "Diese Liste enthält keine Tags.\nWenn du welche hinzufügst, wird hier eine Aufschlüsselung angezeigt.";
+"tagInsights.acc" = "%@ , Tag-Farbe %@";
+
+/* QuickAdd View */
+"quickAdd.empty" = "Name des Elements...";
+"quickAdd.defaultItem" = "Neues Element";
+
+/* List Settings VC*/
+"list.vc.changeTax" = "Steuersatz ändern (%@)";
+"list.vc.title" = "Listenoptionen und Freigabe";
+"list.vc.collab" = "Details zur Zusammenarbeit";
+"list.vc.collabInit" = "Mit anderen zusammenarbeiten";
+"list.vc.editName" = "Listenname";
+"list.vc.removeAll" = "Alle Elemente entfernen";
+"list.vc.lock" = "Liste sperren mit %@";
+"authContext.authType.pin" = "PIN";
+"authContext.biometryType.faceID" = "Face ID";
+"authContext.biometryType.touchID" = "Touch ID";
+"list.vc.check" = "Checkboxen anzeigen";
+"list.vc.advanced" = "Fortgeschritten";
+"list.vc.header1" = "Teilen und exportieren";
+"list.vc.header2" = "Liste bearbeiten";
+"list.vc.header3" = "Optionen";
+"list.vc.clear" = "Liste leeren";
+"list.vc.clear1" = "Dadurch werden alle Elemente in deiner Liste gelöscht. Bist du sicher?";
+"list.vc.lockNo" = "Sperre nicht verfügbar";
+"list.vc.lockNoReason" = "Auf deinem Gerät ist Authentifizierung nicht aktiviert. Um Listen zu sperren, richte entweder Face ID, Touch-ID oder einen PIN-Code in iOS ein.";
+"list.vc.currency" = "Währung";
+"list.vc.chooseCurrency" = "Währung auswählen";
+
+/* List Exporter */
+"export.subTotal" = "\n\n Zwischensumme: %@";
+"export.tax" = "\n Steuer: %@";
+"export.discount" = "\n Rabatte: %@";
+"export.total" = "\n Gesamt: %@";
+"export.html.cost" = "<h4>Kosten</h4><p>";
+"export.html.subTotal" = "<strong>Zwischensumme</strong><em>%@</em><br />";
+"export.html.tax" = "<strong>Steuer:</strong><em>%@</em><br />";
+"export.html.discount" = "<strong>Rabatte:</strong><em>%@</em><br />";
+"export.html.total" = "<strong>Gesamt:</strong><em>%@</em><br />";
+
+/* List Name VC */
+"listName.vc.title" = "Listenname bearbeiten";
+"listName.vc.titleItem" = "Name des Elements bearbeiten";
+
+/* List Item Editing Cells */
+"listEdit.include" = "Inklusive %@";
+"listEdit.noTax" = "Für diese Liste ist kein Steuersatz festgelegt.";
+"listEdit.remove" = "Rabatt entfernen";
+"listEdit.add" = "Rabatt hinzufügen";
+"listEdit.amountOff" = "Betrag abziehen";
+"listEdit.percentOff" = "Prozentsatz abziehen";
+"listEdit.discountType" = "Wähle eine Rabattart";
+"listEdit.apply" = "Lasse automatisch einen bestimmten Betrag oder Prozentsatz abziehen.";
+"listEdit.removePhoto" = "Foto entfernen";
+"listEdit.removeLink" = "Link löschen";
+"listEdit.addPhoto" = "Foto hinzufügen";
+"listEdit.addLink" = "Link hinzufügen";
+"listEdit.regularPricing" = "Normal";
+"listEdit.weightedPricing" = "Nach Gewicht";
+"listEdit.recurringPricing" = "Wiederkehrend";
+"listEdit.attachImage" = "Bild";
+"listEdit.attachLink" = "Link";
+"listEdit.price" = "Preis:";
+"listEdit.per" = " pro %@";
+"listEdit.subtotal" = "Zwischensumme:";
+"listEdit.weight" = "Gewicht:";
+"listEdit.discount" = "Rabatt:";
+"listEdit.cycle" = "Zyklus:";
+"listEdit.tax" = "MwSt:";
+"listEdit.total" = "Gesamt:";
+"listEdit.note" = "Trage eine Notiz zu diesem Element ein.";
+"listEdit.addTag" = "Füge einen Tag hinzu";
+"listEdit.noImage" = "Beim Herunterladen dieses Bildes ist ein Problem aufgetreten.\nBitte versuche es später erneut.";
+"listEdit.noLink" = "Wir hatten ein Problem beim Abrufen dieses Links.\mBitte versuchen Sie es später erneut.";
+"listEdit.image.acc" = "Tippe hier, um das Bild anzuzeigen.";
+"listEdit.image.attach" = "Bild anhängen";
+"listEdit.link.attach" = "Fügen Sie einen Link hinzu";
+"listEdit.header1" = "Preis";
+"listEdit.header2" = "Menge";
+"listEdit.header3" = "Notizen";
+"listEdit.header4" = "Tag";
+"listEdit.header5" = "Anhänge";
+"listEdit.loadingImage" = "Bild laden";
+"listEdit.day" = "Tag";
+"listEdit.dayColon" = "Tag:";
+"listEdit.days" = "Tage";
+"listEdit.week" = "Woche";
+"listEdit.weekColon" = "Woche:";
+"listEdit.weeks" = "Wochen";
+"listEdit.month" = "Monat";
+"listEdit.monthColon" = "Monat:";
+"listEdit.months" = "Monate";
+"listEdit.year" = "Jahr";
+"listEdit.yearColon" = "Jahr:";
+"listEdit.years" = "Jahre";
+"listEdit.every" = "Alle";
+"listEdit.daily" = "Täglich";
+"listEdit.weekly" = "Wöchentlich";
+"listEdit.monthly" = "Monatlich";
+"listEdit.yearly" = "Jährlich";
+"listEdit.multDaily" = "%@ Tage";
+"listEdit.multWeekly" = "%@ Wochen";
+"listEdit.multMonthly" = "%@ Monate";
+"listEdit.multYearly" = "%@ Jahre";
+"listEdit.date" = "Datum:";
+"listEdit.setDate" = "Datum einstellen";
+
+/* Locking */
+"lock.try" = "Versuche es nochmal";
+
+/* CK Manager*/
+"ck.manager.noData" = "Keine Daten verfügbar";
+"ck.manager.noDataPrompt" = "Bitte versuche es erneut, wenn du wieder WLAN oder eine Mobilfunkverbindung hast.";
+
+/* List Item Cell */
+"listItem.cell.hint" = "Doppeltippen, um diese Liste zu öffnen.";
+"listItem.cell.zero" = "0 Elemente.";
+"listItem.cell.one" = "1 Element";
+"listItem.cell.plural" = "%lu Elemente";
+"listItem.cell.locked" = "Gesperrt";
+"listItem.cell.shared" = "Geteilte Liste";
+"listItem.cell.acCamera" = "Filmrolle";
+"listItem.cell.acTakePhoto" = "Foto machen";
+"listItem.cell.acDocs" = "Unterlagen";
+
+/* List Total Header */
+"listHeader.allItems" = "Alle Elemente";
+"listHeader.lbl.hint" = "Hier tippen, um Kostendetails anzuzeigen.";
+"listHeader.checked" = "Nur abgehakte";
+"listHeader.unchecked" = "Nur deaktivierte";
+"listHeader.lbl.acVal" = "Die Gesamtsumme der Liste beträgt %@ für %@ %@";
+"listHeader.btnPage.acVal" = "Summe ändern, um %@ %@ anzuzeigen";
+
+/* Checkbox */
+"checkbox.checked" = "Abgehakt";
+"checkbox.unchecked" = "Nicht abgehakt";
+
+/* SelectLists VC*/
+"selectLists.move" = "Verschieben";
+"selectLists.copy" = "Kopieren";
+"selectLists.empty" = "Du hast nur eine Liste. Erstelle weitere Listen, um Elemente verschieben zu können.";
+
+/* DragThing */
+"dragThing.movedSingle" = "%@ nach %@ verschoben";
+"dragThing.moved" = "%@ %@ nach %@ verschoben";
+"dragThing.copied" = "%@ %@ nach %@ kopiert";
+"dragThing.copiedSingle" = "%@ nach %@ kopiert";
+"dragThing.checkedAll" = "Alle Elemente abgehakt";
+"dragThing.uncheckedAll" = "Alle Elemente abgewählt";
+"dragThing.deletedAll" = "Alle Elemente gelöscht";
+
+/* Select Currency VC */
+"currencyVC.searchCurrencies" = "Währungen suchen";
+
+/* Loading HUD */
+"hud.duping" = "Duplizieren";
+
+/* Contextuals */
+"ctx.title.list" = "Listenoptionen";
+"ctx.title.item" = "Elementoptionen";
+"ctx.ac.move" = "In Liste verschieben";
+"ctx.ac.copy" = "In Liste kopieren";
+"ctx.ac.duplicate" = "Duplizieren";
+"ctx.ac.info" = "Info";
+"ctx.ac.rename" = "Umbenennen";
+"ctx.ac.removeAllItems" = "Alle Elemente entfernen.";
+"ctx.ac.taxOn" = "MwSt. hinzufügen";
+"ctx.ac.taxOff" = "MwSt. entfernen";
+"ctx.ac.check" = "Abhaken";
+"ctx.ac.uncheck" = "Abwählen";
+"ctx.ac.checkAll" = "Alle abhaken";
+"ctx.ac.uncheckAll" = "Alle abwählen";
+"ctx.ac.newWindow" = "In neuem Fenster öffnen";
+"ctx.ac.invite" = "Personen einladen";
+"ctx.ac.window" = "Neues Fenster";
+"ctx.ac.addTag" = "Tag hinzufügen";
+"ctx.ac.removeTag" = "Tag entfernen";
+"ctx.ac.export.trailing" = "Exportieren...";
+"ctx.ac.editDate" = "Datum";
+"ctx.ac.openLink" = "Link anzeigen";
+"ctx.asqa.openList" = "Öffnen %@";
+
+/* Popovers */
+"pop.delete" = "Möchtest du dieses Element löschen?";
+
+/* ChangeIcon VC */
+"changeIcon.title" = "Icon auswählen";
+"changeIcon.preview" = "Icon-Vorschau";
+"changeIcon.hd" = "Tippe auf ein Icon, um es zu vergrößern";
+"changeIcon.default" = "Standard";
+
+/* Attach Link VC */
+"attachLink.title" = "Link eintragen";
+
+/* Drag and Drop */
+"drop.noteOnItem" = "Notiz hinzugefügt zu ";
+"drop.linkOnItem" = "Link hinzugefügt zu ";
+"drop.imageOnItem" = "Bild hinzugefügt zu ";
+
+/* Inline Tags */
+"tagInline.sortTitle" = "Tags sortieren";
+"tagInline.emtpy" = "Keine Tags.";
+
+//------ WIDGET EXTENSIONS ------ //
+"ext.widget.subs.displayName" = "Wiederkehrende Kosten";
+"ext.widget.subs.description" = "Zeigen Sie die wiederkehrenden Kosten für diesen Monat an..";
+"ext.widget.subs.nextUp" = "Nächster";
+"ext.widget.subs.nothingDue" = "Nichts fällig.";
+
+"ext.widget.tags.displayName" = "Tag Insights";
+"ext.widget.tags.description" = "Zeigen Sie Summen von Elementen mit einem bestimmten Tag an.";
+"ext.widget.tags.rangeWeek" = "über diese Woche";
+"ext.widget.tags.over" = "über %@";
+"ext.widget.tags.spending" = "ausgaben %@.";
+"ext.widget.tags.highest" = "Höchste";
+"ext.widget.tags.lowest" = "Niedrig";
+"ext.widget.tags.total" = "Gesamt";
+"ext.widget.tags.count" = "Anzahl";
+"ext.widget.tags.item" = "artikel";
+"ext.widget.tags.items" = "artikel";
+
+"ext.widget.lists.displayName" = "Einblicke auflisten";
+"ext.widget.lists.description" = "Einblicke für eine Liste anzeigen.";
+"ext.widget.lists.unchecked" = "Deaktiviert:";
+"ext.widget.lists.checked" = "Überprüft:";
+"ext.widget.lists.all" = "Alles:";
+"ext.widget.lists.average" = "Durchschnittlich:";
+"ext.widget.lists.highest" = "Höchste:";
+"ext.widget.lists.lowest" = "Niedrig:";
+"ext.widget.lists.tags" = "Tags";
+"ext.widget.lists.items" = "artikel";
+
+"ext.appleCard.total" = "Gesamt";
+"ext.appleCard.noCharges" =  "No charges for this month.";
+
+//------ NUDGES ------ //
+"nudgeTitleCTXMenu" = "Menüs";
+"nudgeMsgCTXMenu" = "Drücken Sie lange auf Elemente, um weitere Optionen anzuzeigen.";

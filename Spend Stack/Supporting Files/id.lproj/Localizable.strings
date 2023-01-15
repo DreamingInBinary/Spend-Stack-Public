@@ -1,0 +1,576 @@
+/*
+ Localizable.strings
+ Spend Stack
+ 
+ Created by Jordan Morgan on 1/2/17.
+ Copyright © 2017 Jordan Morgan. All rights reserved.
+ */
+
+/* General */
+"general.help" = "Tolong";
+"general.edit" = "Ubah";
+"general.yes" = "Ya";
+"general.continue" = "Teruskan";
+"general.cancel" = "Batalkan";
+"general.settings" = "Pengaturan";
+"general.delete" = "Hapus";
+"general.sort" = "Sortir";
+"general.text" = "Teks";
+"general.pdf" = "PDF";
+"general.print" = "Cetak";
+"general.print.no" = "Pencetakan tidak tersedia";
+"general.print.no2" = "Pencetakan tidak diaktifkan pada perangkat ini.";
+"general.shareList" = "Bagikan Daftar";
+"general.shareLists" = "Bagikan Beberapa Daftar";
+"general.shareList.method" = "Bagaimana hendak membagikan daftar anda?";
+"general.shareLists.method" = " Bagaimana hendak membagikan beberapa daftar anda?";
+"general.deleteList.yesConfirm" = "Hapus Daftar";
+"general.deleteListItems.yesConfirm" = "Hapus Segalanya";
+"general.deleteList" = "Hapus Daftar";
+"general.deleteLists" = "Hapus Beberapa Daftar ";
+"general.deleteList.method" = "Hendak menghapus daftar terpilih?";
+"general.deleteLists.method" = "Hendak menghapus beberapa daftar terpilih?";
+"general.deleteList.shared" = "Hapus Daftar Bersama?";
+"general.deleteList.sharedExp" = "Daftar akan dihapus pada semua perangkat anda. Untuk membuka kembali, tap link undangan anda.";
+"general.deleteList.sharedExp2" = "Jika anda menghapus daftar bersama, orang lain tidak dapat mengakses, dan akan terhapus dari perangkat mereka.";
+"general.alphabetically" = "Berdasarkan Abjad";
+"general.newest" = "Terbaru";
+"general.oldest" = "Terlama";
+"general.sort.lists" = "Sortir Daftar";
+"general.choose" = "Pilih.";
+"general.lists" = "Daftar";
+"general.advanced" = "Lebih lanjut";
+"general.about" = "Tentang";
+"general.noConnection" = "Koneksi tidak tersedia";
+"general.contactSupport" = "Hubungi Bantuan";
+"general.contactUs" = "Hubungi Kami";
+"general.ok" = "Baiklah";
+"general.error.title" = "Mohon Maaf";
+"general.noThanks" = "Tidak terima kasih";
+"general.openSettings" = "Buka Pengaturan";
+"general.iPhone.possessive" = "iPhone's";
+"general.iPad.possessive" = "iPad's";
+"general.share" = "Bagikan";
+"general.image" = "Gambar";
+"general.untitled" = "Tanpa judul";
+"general.gotIt" = "Mengerti!";
+
+/* General Accessibility */
+"ac.tapToDismiss" = "Ketuk dua kali untuk menutup.";
+
+/* Errors */
+"error.appleCardImport" = "File tidak dapat dibaca.";
+"error.appleCardImport.noAccess" = "Kami tidak memiliki izin untuk mengakses file tersebut.";
+
+/* Apple Card */
+"appleCard.header" = "Impor untuk Apple Card ®";
+"appleCard.copy" = "Impor Pernyataan Apple Card® Anda ke daftar di Spend Stack. Untuk setiap tagihan, kami akan membuat item untuk daftar Anda. Data ini hanya dapat dilihat oleh Anda atau siapa pun yang Anda bagikan daftar.\n\nUntuk memulai, ekspor pernyataan Apple Card® ke aplikasi Files dalam format .csv.";
+"appleCard.start" = "Mulai";
+"appleCard.howTo" = "Cara mengekspor pernyataan Apple Card® Anda.";
+"appleCard.import" = "Impor %@ dari %@ item.";
+"appleCard.done" = "Apple Card Import Finished";
+
+/* Bar Items */
+"barItem.scan" = "Pindai Barcode";
+"barItem.listBreakdown" = "Rincian Daftar";
+"barItem.listBreakdown.asc" = "Lihat Daftar Biaya";
+"barItem.insights" = "Daftar lebih detail";
+"barItem.addTag" = "Tambahkan Tanda";
+"barItem.add" = "Tambah";
+"barItem.addItem" = "Tambahkan Barang";
+"barItem.kb" = "Sembunyikan Keyboard";
+"barItem.zeroes.asc" = "Dua nol";
+"barItem.zeroes.ascHint" = "Tambahkan dua nol ke jumlah.";
+"barItem.export" = "Ekspor";
+"barItem.export.asc" = "Ekspor Data";
+"barItem.photo" = "Ambil gambar";
+"barItem.docs" = "Lihat Dokumen";
+"barItem.plusMinus" = "Plus Minus";
+"barItem.plusMinus.asc" = "Beralih di antara angka pengurang dan penambah.";
+"barItem.edit" = "Edit";
+"barItem.appleCard" = "Impor Pernyataan Kartu Apple";
+
+/* Empty View */
+"emptyView.create" = "Untuk membuat daftar, tap icon di kanan bawah.";
+
+/* Key Commands */
+"kc.create" = "Buat Daftar Baru";
+"kc.help" = "Buka Bantuan";
+
+/* First Run VC */
+"firstRun.vc.flexibile" = "Catatan keuangan yang lengkap dan fleksibel";
+"firstRun.vc.share" = "Membuat  daftar belanja, keperluan sehari-hari, ulang tahun dan anggaran yang dapat anda kolaborasikan.";
+"firstRun.vc.accurate" = "Akurat, hingga satuan terkecil";
+"firstRun.vc.accurate2" = "Ketahui dengan tepat setiap harga entri termasuk diskon, pajak, harga per satuan, dan sebagainya .";
+"firstRun.vc.tags" = "Tandai";
+"firstRun.vc.organize" = "Atur dan kategorikan semua dengan membuat tanda.";
+"firstRun.vc.headerText" = "Selamat Datang di Spend Stack";
+"firstRun.vc.headerText2" = "Selamat Datang di\nSpend Stack";
+
+/* Expired */
+"betaExpired.headerText" = "Thanks for testing Spend Stack";
+"betaExpired.headerText2" = "Thanks for testing\n Spend Stack";
+"betaExpired.detail" = "Bangunan ini telah kedaluwarsa. Silakan unduh versi yang ditemukan di App Store.";
+"betaExpired.download" = "Unduh";
+
+/* Help and More VC */
+"ham.vc.title" = "Bantuan";
+"ham.vc.manage" = "Atur Tanda";
+"ham.vc.learn" = "Pelajari lebih lanjut";
+"ham.vc.tags" = "Buat atau edit tag";
+"ham.vc.totals" = "Perlihatkan Semua Tanda";
+"ham.vc.listTotal" = "Perlihatkan  Semua Daftar";
+"ham.vc.more" = "Sinkronkan and opsi lain.";
+"ham.vc.contact" = "Hubungi kami";
+"ham.vc.question" = "Dapatkan bantuan atau kirim pertanyaan anda.";
+"ham.vc.tweet" = "Tweet kami";
+"ham.vc.upToDate" = "Selalu up to date.";
+"ham.vc.reddit" = "Komunitas Reddit";
+"ham.vc.reddit2" = "Chat dengan pengguna lain.";
+"ham.vc.version" = "Informasi Versi.";
+"ham.vc.review" = "Ulasan Spend Stack";
+"ham.vc.review2" = "Berikan penilaian anda tentang kami.";
+"ham.vc.privacy" = "Kebijakan Privasi";
+"ham.vc.privacy2" = "Data anda sepenuhnya milik anda.";
+"ham.vc.acknowledge" = "Ucapan terima kasih";
+"ham.vc.acknowledge2" = "Open source libraries yang kami gunakan.";
+"ham.vc.header00" = "Kiat";
+"ham.vc.header0" = "Penampilan";
+"ham.vc.header1" = "Pengaturan Daftar";
+"ham.vc.header2" = "Jangkauan";
+"ham.vc.header3" = "Tanda Penerbit";
+"ham.vc.wholeNum" = "Gunakan penulisan angka secara penuh";
+"ham.vc.localize" = "Saran alih bahasa";
+"ham.vc.localize2" = "Pengembangan lokal.";
+"ham.vc.appearance" = "Edit ikon";
+"ham.vc.appearance2" = "Temukan favorit baru.";
+"ham.vc.guides" = "Baru menggunakan Stack?";
+"ham.vc.guides2" = "Mulai di sini.";
+
+/* Explainer Utils and VC */
+"ex.util.tag" = "Tanda";
+"ex.util.tagTotal" = "Subtotal Tanda";
+"ex.util.listTotal" = "Total Daftar";
+"ex.util.wholeNum" = "Keseluruhan";
+"ex.util.tax" = "Sales Tax Rate";
+"ex.util.check" = "Checkboxes";
+"ex.util.currency" = "Memilih mata uang";
+"ex.util.acc1" = "Gambar dari daftar tanda.";
+"ex.util.acc2" = "Gambar dari subtotal tanda.";
+"ex.util.acc3" = "Gambar dari jumlah keseluruhan.";
+"ex.util.acc4" = "Image of a list's sales tax.";
+"ex.util.acc5" = "Image of a list's checkboxes.";
+"ex.util.acc6" = "Image of various currencies.";
+"ex.util.subHead1" = "Atur entri dengan memberinya tanda.";
+"ex.util.subHead2" = "Lihat harga total dari entri yang ditandai.";
+"ex.util.subhead3" = "Jumlah total dari daftar.";
+"ex.util.subhead4" = "Angka mata uang secara penuh.";
+"ex.util.subhead5" = "Automatically apply sales tax to an item's cost.";
+"ex.util.subhead6" = "Perlihatkan kotak centang.";
+"ex.util.subhead7" = "Memilih mata uang.";
+"ex.util.detail1" = "Dengan memberinya tanda, anda dapat mengelompokkan entri-entri yang sejenis. Kelompokan berdasarkan produk pertainian atau produk susu, kado ulang tahun, entri-entri yang anda inginkan, atau kategori lain yang anda butuhkan.\n\nSetiap tanda yang anda buat akan disinkronkan secara otomatis ke perangkat anda yang lain yang terhubung kea kun iCloud yang sama, dan setiap tanda yang ada dalam daftar yang anda bagikan  akan dapat dilihat oleh orang-orang dalam daftar bagi anda.\n\nTanda akan selalu terbawa dalam semua daftar anda, sehingga anda cukup membuatnya sekali saja. Dan jika anda mengubahnya, perubahan itu akan dicerminkan ke seluruh daftar anda yang terdapat tanda tersebut.";
+"ex.util.detail2" = "Ketika berkerja, jumlah total entri-entri dibawah sebuah tanda akan ditampilkan pada bagian bawah pada setiap bagian.\n\nDengan demikian,anda dapat dengan mudah melihat jumlah total dari daftar anda dari setiap tanda dan setiap entri dalam tanda tersebut.";
+"ex.util.detail3" = "Ini menunjukkan jumlah total daftar entri anda pada bagian paling atas. Anda dapat mentapnya untuk melihat informasi lebih detail yang menunjukkan subtotal, pajak, dan jumlah diskon.\n\nBahkan ketika fungsi ini dimatikan anda dapat men tap icon kalkulator pada bagian kiri bawah untuk melihat perincian jumlah kapan.";
+"ex.util.detail4" = "Jika fungsi ini dijalankan, semua angka dalam mata uang akan ditampilkan secara penuh dalam Spend Stack. Sebagai tambahan, implementasi tersebut juga ketika anda memasukkan biaya.\n\nIni berguna di region dimana angka mata uang tidak menggunakan penulisan tradisional, seperti 1, bukan 1,00.";
+"ex.util.detail5" = "If this is turned on, Spend Stack will apply the sales tax for your area to an item's cost. You can also turn this on or off on a item by item basis, as well as change the tax rate for the list later on in settings.";
+"ex.util.detail6" = "Jika ini diaktifkan, Spend Stack akan menampilkan kotak centang di sebelah setiap item. Anda nantinya dapat mengaktifkan atau menonaktifkan ini dalam pengaturan.";
+"ex.util.detail7" = "Anda dapat menggunakan mata uang apa pun untuk daftar Anda. Ini nantinya dapat diubah dalam pengaturan daftar Anda.";
+
+/* Tags VC */
+"tags.vc.header" = "Pilih tanda untuk diubah.";
+"tags.vc.empty" = "Untuk membuat tanda,  tap icon pada bagian bawah kanan.";
+"tags.vc.undo" = "Hapus Tanda";
+"tags.vc.choose" = "Pilih Tanda.";
+"tags.vc.color" = "Warna Tanda";
+
+/* TagsManager VC */
+"tagsManager.vc.edit" = "Ubah Tanda";
+"tagsManager.vc.create" = "Buat Tanda";
+"tagsManager.vc.name" = "Namai tanda anda...";
+"tagsManager.vc.restore" = "Pulihkan tanda";
+"tagsManager.vc.leave" = "Biarkan terhapus";
+"tagsManager.vc.deleted" = "Tanda terhapus";
+"tagsManager.vc.choice" = "Tanda ini telah dihapus dari perangkat lain. Apakah anda ingin memulihkannya atau membiarkannya terhapus?";
+"tagsManager.vc.confirmDelete" = "Apakah anda ingin menghapus tanda ini?";
+"tagsManager.vc.newTag" = "Buat tanda baru";
+
+/* Advanced List Options VC */
+"advList.vc.syncing" = "Mensinkronkan Daftar...";
+"advList.vc.fetching" = "Mengambil Daftar...";
+"advList.vc.performing" = "Menjalankan sinkronisasi...";
+"advList.vc.performing2" = "Mensinkronkan...";
+"advList.vc.title" = "Lebih lanjut";
+"avdList.vc.iCloud" = "Mensinkronkan daftar dengan iCloud ";
+"advList.vc.resync" = "Mensinkronkan ulang Daftar";
+"advList.vc.explainSync" = "Akan mengirimkan ulang semua data dari daftar dalam perangkat ini ke  iCloud. Gunakan apabila data tersebut tidak terdapat pada perangkat lain yang digunakan.";
+"advList.vc.fetch" = "Mengambil Daftar";
+"advList.vc.explainFetch" = "Mengambil ulang  daftar data dari iCloud. Gunakan apabila pada perangkat ini tidak  terdapat data yang berasal dari perangkat anda yang lain.";
+"advList.vc.performFetch" = "Jalankan Pengambilan";
+"advList.vc.allFetch" = "Ini akan mengambil semua data Spend Stack's dari iCloud. Spend Stack akan menjalankan sinkronisasi bagi anda secara otomatis. Gunakan hanya apabila data anda tampak tidak konsisten di semua perangkat yang anda gunakan.";
+"advList.vc.listFetch" = "Ini akan mengambil ulang semua daftar data anda dari iCloud. Gunakan apabila perangkat ini kehilangan sebagian data yang ada di perangkat lain yang anda.";
+"advList.vc.signIn" = "Masuk dengan iCloud";
+"advList.vc.singInExplain" = "Perangkat anda tidak sedang terhugung dengan iCloud .\n\nKunjungi menu Pengaturan untuk masuk , dan semua data anda akan mulai disinkronkan secara otomatis.";
+"advList.vc.noCon" = "Masuklah ke koneksi WiFi atau pastikan anda memiliki koneksi data seluler untuk mensinkronkan daftar anda dengan iCloud.";
+"advList.vc.doneList" = "Sinkronisasi Daftar Selesai.";
+"advList.vc.doneFetch" = "Pengambilan Daftar Selesai.";
+"advList.vc.completed" = "Sinkronisasi Selesai.";
+"advList.vc.error" = "Sinkronisasi selesai dengan kesalahan. Kontak bantuan dengan pesan berikut: %@";
+"advList.vc.appFetchFailed" = "\n\nBasis data CloudKit tidak dikonfigurasi.";
+
+/* Email Sender */
+"email.copy" = "Copy Email bantuan";
+"email.twitter" = "Buka Twitter";
+"email.client" = "Email Client Tidak ditemukan";
+"email.noClient" = "Standar layanan email tidak di set pada perangkat anda.\n\nAnda dapat menghubungi kami di Twitter, atau melalui email ke hi@spendstack.com.";
+
+/* About VC */
+"about.vc.title" = "Tentang";
+"about.vc.version" = "Versi Spend Stack";
+"about.vc.build" = "Build ";
+"about.vc.design" = "Didesain dan dikembangkan\noleh Dreaming In Binary LLC.";
+
+/* Privacy VC */
+"privacy.vc.title" = "Kebijakan Privasi";
+"privacy.vc.subhead1" = "Data Lokasi";
+"privacy.vc.explain1" = "Jika anda berada di Amerika Serikat, kami meminta lokasi anda untuk menentukan tariff pajak penjualan lokal di area anda. Informasi ini diperoleh dari Sale-Tax.com. Kami tidak menyimpan atau menahan data lokasi anda dalam bentuk apapun, Data lokasi anda akan dihapus segera setelah tarif pajak penjualan diperoleh.";
+"privacy.vc.subhead2" = "Debugging Data";
+"privacy.vc.explain2" = "Kami menggunakan Bug Snag untuk melaporkan crash. Perangkat anda, versi dari iOS dan tanggal crash terjadi  akan dapat terlihat oleh kami. Walaupun demikian tidak ada identitas personal yang kami simpan maupun kami kirimkan ke Bug Snag. Yang dapat kami lihat hanyalah langkah yang diambil sebelum terjadi crash. Kami tidak dapat melihat data apapun yang anda masukkan, seperti nama dari daftar anda, nama entri, catatan, atau gambar.";
+"privacy.vc.subhead3" = "Data personal";
+"privacy.vc.explain3" = "Secara sederhana, tidak ada data yang anda masukkan ke Spend Stack yang dapat terlihat oleh kami. Untuk fungsi debugging, kami mungkin meminta anda untuk memberi informasi untuk mengatasi masalah, jika tidak informasi tersebut terekam ke perangkat anda, dan data yang disinkronkan melalui iCloud Apple tidak dapat diakses oleh kami.";
+"privacy.vc.question" = "Ada Pertanyaan?";
+"privacy.vc.contact" = "Jika anda mempunyai pertanyaan tentang data anda, jangan ragu untuk menghubungi kami, dengan senang hati kami akan membantu.";
+
+/* Open Source VC */
+"openSource.vc.title" = "Open Source";
+"openSrouce.vc.header" = "Libraries";
+"openSource.vc.masonry" = "Digunakan untuk membuat tampilan antar muka kami.";
+"openSource.vc.ig" = "Digunakan untuk memuat ulang daftar anda.";
+"openSource.vc.fmdb" = "Digunakan untuk menyimpan data local pada perangkat anda.";
+"openSrouce.vc.bugsnag" = "Digunakan untuk mengatasi crash.";
+
+/* Create List VC */
+"createList.vc.title" = "Membuat sebuah daftar";
+"createList.vc.untitled" = "Daftar belum ada nama";
+"createList.vc.apply" = "Menerapkan %@";
+"createList.vc.manualEnterTax" = "Masukkan tarif pajak";
+"createList.vc.set" = "Setel tarif pajak";
+"createList.vc.setTo" = "Tarif pajak di set ke %@";
+"createList.vc.checks" = "Perlihatkan kotak centang";
+"createList.vc.location" = "Berdasarkan lokasi";
+"createList.vc.use" = "Gunakan %@ (%@)";
+"createList.vc.manually" = "Masukkan manual";
+"createList.vc.edit" = "Ubah tarif pajak";
+"createList.vc.removeTax" = "Hapus tarif pajak";
+"createList.vc.imgAcc" = "Learn more about how sales tax works.";
+"createList.vc.imgAcc2" = "Pelajari lebih lanjut tentang cara kerja daftar periksa.";
+"createList.vc.currency" = "Mata uang (%@)";
+
+/* Tax Util */
+"taxUtil.tax" = "Pajak penjualan";
+
+/* Tax Permissions VC */
+"taxPerm.main" = "Spend Stack memerlukan lokasi anda untuk mengetahui tarif pajak penjualan di lokasi anda.\n\nIf terlihat bagus, tolong berikan lokasi anda.";
+"taxPerm.grant" = "Berikan izin";
+"taxPerm.steps" = "Tolong buka %@ menu pengaturan untuk memberi kami izin sementara untuk mengetahui lokasi anda .";
+"taxPerm.disabled" = "Layanan Lokasi dinonaktifkan";
+
+/* Find Tax Rate VC */
+"findTax.vc.title" = "Temukan tarif pajak";
+"findTax.vc.good" = "Terlihat Bagus";
+"findTax.vc.manual" = "Masukkan Manual";
+"findTax.vc.locating" = "Menentukan Lokasi...";
+"findTax.vc.credit" = "Data tariff pajak disediakan oleh Sale-Tax.com";
+"findTax.vc.credit2" = "Sale-Tax.com";
+"findTax.vc.found" = "Tarif pajak local adalah  %@";
+"findTax.vc.error" = "Kami tidak dapat menetukan lokasi anda. Anda dapat memasukkan tarif pajak secara manual atau hubungi kami untuk bantuan.";
+
+/* Enter Tax Rate VC */
+"enterTax.vc.title" = "Masukkan tarif pajak";
+"enterTax.vc.change" = "Tidak, saya akan mengubahnya";
+"enterTax.vc.adjust" = "Hendak mengubah tarif pajak?";
+
+/* List VC */
+"list.vc.deleteItems" = "Hapus beberapa entri";
+"list.vc.deleteItem" = "Hapus entri";
+"list.vc.confirmDeleteItems" = "Hendak menghapus entri-entri terpilih?";
+"list.vc.confirmDeleteItem" = "Hendak menghapus entri terpilih?";
+"list.vc.collabDetails" = "Detail Kolaborasi";
+"list.vc.collabPrompt" = "Kolaborasi dengan yang lain";
+"list.vc.setTag" = "Setel Tanda";
+"list.vc.settings" = "Pengaturan Daftar";
+"list.vc.restore" = "Pulihkan Daftar";
+"list.vc.leaveDeleted" = "Biarkan terhapus";
+"list.vc.isDeleted" = "Daftar terhapus";
+"list.vc.isDeletedInfo" = "Daftar ini telah dihapus dari perangkat lain. Apakah anda ingin memulihkannya, atau membiarkannya terhapus?";
+"list.vc.empty" = "Tambahkan entri ke daftar anda dengan tap icon + icon dibawah";
+"list.vc.text" = "Teks";
+"list.vc.image" = "Gambar";
+"list.vc.pdf" = "PDF";
+"list.vc.share" = "Bagikan daftar";
+"list.vc.shareMethod" = "Bagaimana anda hendak membagikan daftar anda?";
+
+/* Breakdown VC */
+"breakdown.vc.title" = "Total";
+"breakdown.vc.subtotal" = "Subtotal:";
+"breakdown.vc.tax" = "Pajak:";
+"breakdown.vc.discounts" = "Diskon:";
+"breakdown.vc.totalColon" = "Total:";
+"breakdown.vc.all" = "Semua barang";
+"breakdown.vc.recurring" = "Biaya Berulang";
+
+/* Breakdown View */
+"breakdown.subtotal" = "Subtotal";
+"breakdown.tax" = "Pajak";
+"breakdown.discounts" = "Diskon";
+"breakdown.total" = "Total";
+
+/* Tag Insight Views */
+"allItems.title" = "Semua Entri";
+"allItems.item" = "Entri";
+"allItems.items" = "Entri-entri";
+"allItems.count" = "Hitung:";
+"allItems.average" = "Rata-rata:";
+"allItems.na" = "N/A";
+"allitems.highest" = "Tertinggi:";
+"allItems.lowest" = "Terendah:";
+"tagInsights.bar" = "Grafik Batang";
+"tagInsights.pie" = "Grafik Lingkaran";
+"tagInsights.noData" = "Tidak ada data.";
+"tagInsights.empty" = "Daftar ini tidak memiliki tanda.\nKetika anda menambahkan beberapa, kami akan menunjukkan lebih detail dari setiap tanda di sini.";
+"tagInsights.acc" = "%@, Warna Tanda %@";
+
+/* QuickAdd View */
+"quickAdd.empty" = "Nama Entri...";
+"quickAdd.defaultItem" = "Barang baru";
+
+/* List Settings VC*/
+"list.vc.changeTax" = "Ubah tarif pajak (%@)";
+"list.vc.title" = "Daftar opsi dan bagikan";
+"list.vc.collab" = "Detail Kolaborasi";
+"list.vc.collabInit" = "Kolaborasi dengan yang lain";
+"list.vc.editName" = "Nama Daftar";
+"list.vc.removeAll" = "Hapus semua entri";
+"list.vc.lock" = "Daftar Aman dengan %@";
+"authContext.authType.pin" = "PIN";
+"authContext.biometryType.faceID" = "Face ID";
+"authContext.biometryType.touchID" = "Touch ID";
+"list.vc.check" = "Tunjukkan kotak centang";
+"list.vc.advanced" = "Lebih lanjut";
+"list.vc.header1" = "Bagikan dan Ekspor";
+"list.vc.header2" = "Sunting Daftar";
+"list.vc.header3" = "Opsi";
+"list.vc.clear" = "Kosongkan Daftar";
+"list.vc.clear1" = "Ini akan menghapus semua entri dalam daftar. Apakah anda yakin akan melakukannya?";
+"list.vc.lockNo" = "Mengunci tidak tersedia";
+"list.vc.lockNoReason" = "Perangkat anda tidak memiliki otentikasi. Untuk mengunci daftar, jalankan  salah satu dari Pengenalan Wajah, Pengenalan Sidik Jari atau PIN pada iOS untuk menggunakan fitur ini.";
+"list.vc.currency" = "Mata uang";
+"list.vc.chooseCurrency" = "Pilih Mata Uang";
+
+/* List Exporter */
+"export.subTotal" = "\n\n Subtotal: %@";
+"export.tax" = "\n Pajak: %@";
+"export.discount" = "\n Diskon: %@";
+"export.total" = "\n Total: %@";
+"export.html.cost" = "<h4>Cost</h4><p>";
+"export.html.subTotal" = "<strong>Subtotal:</strong><em>%@</em><br />";
+"export.html.tax" = "<strong>Pajak:</strong><em>%@</em><br />";
+"export.html.discount" = "<strong>Diskon:</strong><em>%@</em><br />";
+"export.html.total" = "<strong>Total:</strong><em>%@</em><br />";
+
+/* List Name VC */
+"listName.vc.title" = "Sunting Nama Daftar";
+"listName.vc.titleItem" = "Edit nama Item";
+
+/* CK Manager*/
+"ck.manager.noData" = "No Data Available";
+"ck.manager.noDataPrompt" = "Silakan coba lagi ketika Anda kembali pada WiFi atau memiliki koneksi seluler.";
+
+/* List Item Editing Cells */
+"listEdit.include" = "Termasuk %@";
+"listEdit.noTax" = "Daftar ini belum ditentukan tarif pajaknya.";
+"listEdit.remove" = "Hapus Diskon";
+"listEdit.add" = "Tambahkan Diskon";
+"listEdit.amountOff" = "Jumlah Dari";
+"listEdit.percentOff" = "Persentase Dari";
+"listEdit.discountType" = "Pilih Tipe Diskon";
+"listEdit.apply" = "Terapkan Jumlah atau Persentase dari.";
+"listEdit.removePhoto" = "Hapus Foto";
+"listEdit.removeLink" = "Hapus Tautan";
+"listEdit.addPhoto" = "Tambahkan Foto";
+"listEdit.addLink" = "Tambahkan Tautan";
+"listEdit.regularPricing" = "Harga Normal";
+"listEdit.weightedPricing" = "Harga berdasarkan bobot";
+"listEdit.recurringPricing" = "Berulang";
+"listEdit.attachImage" = "Gambar";
+"listEdit.attachLink" = "Tautan";
+"listEdit.price" = "Harga";
+"listEdit.per" = " per %@";
+"listEdit.subtotal" = "Subtotal:";
+"listEdit.weight" = "Bobot:";
+"listEdit.discount" = "Diskon:";
+"listEdit.cycle" = "Siklus:";
+"listEdit.tax" = "Pajak:";
+"listEdit.total" = "Total:";
+"listEdit.note" = "Tinggalkan catatan untuk entri ini.";
+"listEdit.addTag" = "Tambahkan Tanda";
+"listEdit.noImage" = "Ada masalah dalam mendownload gambar ini.\nCoba lagi nanti.";
+"listEdit.noLink" = "Kami memiliki masalah dalam mengambil tautan ini.\nSilakan coba lagi nanti.";
+"listEdit.image.acc" = "Tap untuk melihat gambar.";
+"listEdit.image.attach" = "Lampirkan gambar";
+"listEdit.link.attach" = "Lampirkan tautan.";
+"listEdit.header1" = "Penentuan Harga";
+"listEdit.header2" = "Kuantiti";
+"listEdit.header3" = "Catatan";
+"listEdit.header4" = "Tanda";
+"listEdit.header5" = "Lampiran";
+"listEdit.loadingImage" = "Mengambil media";
+"listEdit.day" = "Hari";
+"listEdit.dayColon" = "Hari:";
+"listEdit.days" = "Berhari-hari";
+"listEdit.week" = "Minggu";
+"listEdit.weekColon" = "Minggu:";
+"listEdit.weeks" = "Minggu";
+"listEdit.month" = "Bulan";
+"listEdit.monthColon" = "Bulan:";
+"listEdit.months" = "Bulan";
+"listEdit.year" = "Tahun";
+"listEdit.yearColon" = "Tahun:";
+"listEdit.years" = "Bertahun-tahun";
+"listEdit.every" = "Setiap";
+"listEdit.daily" = "Harian";
+"listEdit.weekly" = "Mingguan";
+"listEdit.monthly" = "Bulanan";
+"listEdit.yearly" = "Tahunan";
+"listEdit.multDaily" = "%@ hari";
+"listEdit.multWeekly" = "%@ minggu";
+"listEdit.multMonthly" = "%@ bulan";
+"listEdit.multYearly" = "%@ tahun";
+"listEdit.date" = "Tanggal:";
+"listEdit.setDate" = "Atur tanggal";
+
+/* Locking */
+"lock.try" = "Coba lagi";
+
+/* List Item Cell */
+"listItem.cell.hint" = "Tap dua kali untuk membuka daftar.";
+"listItem.cell.zero" = "0 entri";
+"listItem.cell.one" = "1 entri";
+"listItem.cell.plural" = "%lu entri-entri";
+"listItem.cell.locked" = "terkunci";
+"listItem.cell.shared" = "daftar yang dibagikan";
+"listItem.cell.acCamera" = "Camera Roll";
+"listItem.cell.acTakePhoto" = "Memotret";
+"listItem.cell.acDocs" = "Dokumen";
+
+/* List Total Header */
+"listHeader.allItems" = "Semua barang";
+"listHeader.lbl.hint" = "Ketuk untuk melihat rincian biaya.";
+"listHeader.checked" = "Hanya Diperiksa";
+"listHeader.unchecked" = "Hanya Tidak Dicentang";
+"listHeader.lbl.acVal" = "Total daftar adalah %@untuk semua %@ %@";
+"listHeader.btnPage.acVal" = "Ubah total untuk ditampilkan %@ %@";
+
+/* Checkbox */
+"checkbox.checked" = "Diperiksa off";
+"checkbox.unchecked" = "Tidak dicentang";
+
+/* SelectLists VC*/
+"selectLists.move" = "Pindah";
+"selectLists.copy" = "Salinan";
+"selectLists.empty" = "Anda hanya punya satu daftar. Buat lebih banyak untuk memindahkan item ke sana.";
+
+/* DragThing */
+"dragThing.movedSingle" = "Terharu %@ to %@";
+"dragThing.moved" = "Terharu %@ %@ untuk %@";
+"dragThing.copiedSingle" = "Disalin %@ untuk %@";
+"dragThing.checkedAll" = "Barang diperiksa";
+"dragThing.uncheckedAll" = "Item tidak dicentang.";
+"dragThing.deletedAll" = "Removed all items";
+
+/* Select Currency VC */
+"currencyVC.searchCurrencies" = "Cari Mata Uang";
+
+/* Loading HUD */
+"hud.duping" = "Duplikat";
+
+/* Contextuals */
+"ctx.title.list" = "Opsi daftar";
+"ctx.title.item" = "Opsi Barang";
+"ctx.ac.move" = "Pindah ke daftar";
+"ctx.ac.copy" = "Salin ke daftar";
+"ctx.ac.duplicate" = "Duplikat";
+"ctx.ac.info" = "Informasi";
+"ctx.ac.rename" = "Ganti nama";
+"ctx.ac.removeAllItems" = "Hapus semua item.";
+"ctx.ac.taxOn" = "Add sales tax";
+"ctx.ac.taxOff" = "Remove sales tax";
+"ctx.ac.check" = "Salin ke daftar...";
+"ctx.ac.uncheck" = "Hapus centang";
+"ctx.ac.checkAll" = "Periksa semua item";
+"ctx.ac.uncheckAll" = "Hapus centang semua item";
+"ctx.ac.newWindow" = "Buka di jendela baru";
+"ctx.ac.invite" = "Mengundang orang";
+"ctx.ac.window" = "Jendela baru";
+"ctx.ac.addTag" = "Add Tag";
+"ctx.ac.removeTag" = "Remove Tag";
+"ctx.ac.export.trailing" = "Eckspor...";
+"ctx.ac.editDate" = "Tanggal";
+"ctx.ac.openLink" = "Lihat Tautan";
+"ctx.asqa.openList" = "Daftar %@";
+
+/* Popovers */
+"pop.delete" = "Apakah Anda ingin menghapus item ini?";
+
+/* ChangeIcon VC */
+"changeIcon.title" = "Pilih Ikon";
+"changeIcon.preview" = "Pratinjau";
+"changeIcon.hd" = "Ketuk ikon untuk melihat pratinjau.";
+"changeIcon.default" = "Default";
+
+/* Attach Link VC */
+"attachLink.title" = "Lampirkan Tautan";
+
+/* Drag and Drop */
+"drop.noteOnItem" = "Catatan ditambahkan ke ";
+"drop.linkOnItem" = "Tautan ditambahkan ke ";
+"drop.imageOnItem" = "Gambar ditambahkan ke ";
+
+/* Inline Tags */
+"tagInline.sortTitle" = "Urutkan Tag";
+"tagInline.emtpy" = "Ketuk tombol tambah untuk membuat tag.";
+
+//------ WIDGET EXTENSIONS ------ //
+"ext.widget.subs.displayName" = "Biaya Berulang";
+"ext.widget.subs.description" = "Lihat biaya berulang untuk bulan ini.";
+"ext.widget.subs.nextUp" = "Lanjut";
+"ext.widget.subs.nothingDue" = "Tidak ada yang jatuh tempo.";
+
+"ext.widget.tags.displayName" = "Tag Insights";
+"ext.widget.tags.description" = "Lihat total dari item menggunakan tag tertentu.";
+"ext.widget.tags.rangeWeek" = "selama minggu ini";
+"ext.widget.tags.over" = "lebih %@";
+"ext.widget.tags.spending" = "pengeluaran %@.";
+"ext.widget.tags.highest" = "Paling tinggi";
+"ext.widget.tags.lowest" = "Terendah";
+"ext.widget.tags.total" = "Total";
+"ext.widget.tags.count" = "Menghitung";
+"ext.widget.tags.item" = "barang";
+"ext.widget.tags.items" = "barang";
+
+"ext.widget.lists.displayName" = "Buat Daftar Wawasan";
+"ext.widget.lists.description" = "Lihat wawasan untuk daftar.";
+"ext.widget.lists.unchecked" = "Tidak dicentang:";
+"ext.widget.lists.checked" = "Dicentang:";
+"ext.widget.lists.all" = "Semua:";
+"ext.widget.lists.average" = "Rata-rata:";
+"ext.widget.lists.highest" = "Paling tinggi:";
+"ext.widget.lists.lowest" = "Terendah:";
+"ext.widget.lists.tags" = "Tags";
+"ext.widget.lists.items" = "barang";
+
+"ext.appleCard.total" = "Total";
+"ext.appleCard.noCharges" =  "No charges for this month.";
+
+//------ NUDGES ------ //
+"nudgeTitleCTXMenu" = "Menus";
+"nudgeMsgCTXMenu" = "Tekan lama item untuk opsi lainnya.";

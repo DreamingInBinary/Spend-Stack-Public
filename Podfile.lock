@@ -1,0 +1,46 @@
+PODS:
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - IGListKit/Diffing (3.4.0)
+  - IQKeyboardManager (6.5.5)
+  - Masonry (1.1.0)
+  - SnapKit (5.0.1)
+  - SwiftCSV (0.5.6)
+
+DEPENDENCIES:
+  - FMDB
+  - IGListKit/Diffing
+  - IQKeyboardManager
+  - Masonry (from `https://github.com/SnapKit/Masonry.git`)
+  - SnapKit (~> 5.0)
+  - SwiftCSV
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - FMDB
+    - IGListKit
+    - IQKeyboardManager
+    - SnapKit
+    - SwiftCSV
+
+EXTERNAL SOURCES:
+  Masonry:
+    :git: https://github.com/SnapKit/Masonry.git
+
+CHECKOUT OPTIONS:
+  Masonry:
+    :commit: 8bd77ea92bbe995e14c454f821200b222e5a8804
+    :git: https://github.com/SnapKit/Masonry.git
+
+SPEC CHECKSUMS:
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  IGListKit: 7a5d788e9fb746bcd402baa8e8b24bc3bd2a5a07
+  IQKeyboardManager: 3a8b9e603f8b0eeaf5f096a1f2b2cfcf121992ef
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SwiftCSV: efb4a15dd7f2f1212b3d6986f97a3369ff6c5100
+
+PODFILE CHECKSUM: 2db97d46bcdb9c564a2de111345050b16cd7de59
+
+COCOAPODS: 1.10.0.beta.2
