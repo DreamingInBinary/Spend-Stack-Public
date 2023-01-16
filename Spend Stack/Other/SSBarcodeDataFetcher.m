@@ -10,11 +10,11 @@
 #import "SSBarcodeSearchResult.h"
 #import "NSString+SHA1.h"
 
-static NSString * const DIGIT_EYES_AUTH_PARAMS = @"app_key=/xElKdofUTtg&language=en&signature=";
+static NSString * const DIGIT_EYES_AUTH_PARAMS = @"app_key=/&language=en&signature=";
 static NSString * const DIGIT_EYES_BASE_URL = @"https://digit-eyes.com/gtin/v2_0/?";
-static NSString * const WALMART_API_KEY_PARAM = @"&apiKey=fypax9zng4qc9rsbktj76mv8";
+static NSString * const WALMART_API_KEY_PARAM = @"";
 static NSString * const WALMART_BASE_URL = @"https://api.walmartlabs.com/v1/items?upc=";
-static NSString * const GOOGLE_API_KEY_PARAM = @"&cx=008591234760184625385:ifztzuppugi&key=AIzaSyDltBlQgU909CgQ9DA0hOlyZiwy3TrytNk";
+static NSString * const GOOGLE_API_KEY_PARAM = @"";
 static NSString * const GOOGLE_BASE_URL = @"https://www.googleapis.com/customsearch/v1?q=";
 
 @implementation SSBarcodeDataFetcher
