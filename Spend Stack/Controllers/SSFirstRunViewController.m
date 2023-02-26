@@ -405,7 +405,7 @@ static const NSInteger SS_APP_ICON_SIZE = 66;
     [headerAttributedText addAttribute:NSParagraphStyleAttributeName value:paragraphStyle range:NSMakeRange(0, headerText.length)];
     [headerAttributedText addAttribute:NSFontAttributeName value:headerFont range:NSMakeRange(0, headerText.length)];
     
-    NSRange spendStackRange = [headerText rangeOfString:@"Spend Stack"];
+    NSRange spendStackRange = [headerText rangeOfString:@"Expense App"];
     [headerAttributedText addAttribute:NSForegroundColorAttributeName value:headerFontBlackColor range:NSMakeRange(0, spendStackRange.location - 1)];
     [headerAttributedText addAttribute:NSForegroundColorAttributeName value:headerFontBlueColor range:NSMakeRange(spendStackRange.location, spendStackRange.length)];
     

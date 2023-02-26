@@ -1,6 +1,6 @@
 /* 
   Localizable.strings
-  Spend Stack
+  Expense App
 
   Created by Jordan Morgan on 1/2/17.
   Copyright © 2017 Jordan Morgan. All rights reserved.
@@ -60,11 +60,11 @@
 
 /* Errors */
 "error.appleCardImport" = "The file was unable to be imported. If the issue persists, please contact support.";
-"error.appleCardImport.noAccess" = "Spend Stack couldn't get permissions to access that file.";
+"error.appleCardImport.noAccess" = "Expense App couldn't get permissions to access that file.";
 
 /* Apple Card */
 "appleCard.header" = "Import for Apple Card ®";
-"appleCard.copy" = "Import your Apple Card® Statements into a list in Spend Stack. For each charge, we'll create an item for your list complete with a tag for its category. This data is only viewable by you or anyone you share your list with.\n\nTo get started, you'll need to export an Apple Card® statement into the Files app in a .csv format.";
+"appleCard.copy" = "Import your Apple Card® Statements into a list in Expense App. For each charge, we'll create an item for your list complete with a tag for its category. This data is only viewable by you or anyone you share your list with.\n\nTo get started, you'll need to export an Apple Card® statement into the Files app in a .csv format.";
 "appleCard.start" = "Get Started";
 "appleCard.howTo" = "How to export your Apple Card® statements.";
 "appleCard.import" = "Imported %@ of %@ items.";
@@ -104,12 +104,12 @@
 "firstRun.vc.accurate2" = "Know exactly how much each item costs with discounts, taxes, pricing by weight and more.";
 "firstRun.vc.tags" = "Tags";
 "firstRun.vc.organize" = "Categorize and organize anything by creating tags.";
-"firstRun.vc.headerText" = "Welcome to Spend Stack";
-"firstRun.vc.headerText2" = "Welcome to\nSpend Stack";
+"firstRun.vc.headerText" = "Welcome to Expense App";
+"firstRun.vc.headerText2" = "Welcome to\nExpense App";
 
 /* Expired */
-"betaExpired.headerText" = "Thanks for testing Spend Stack";
-"betaExpired.headerText2" = "Thanks for testing\nSpend Stack";
+"betaExpired.headerText" = "Thanks for testing Expense App";
+"betaExpired.headerText2" = "Thanks for testing\nExpense App";
 "betaExpired.detail" = "This build has expired. Please download the version in the App Store.";
 "betaExpired.download" = "Download";
 
@@ -128,7 +128,7 @@
 "ham.vc.reddit" = "Reddit Community";
 "ham.vc.reddit2" = "Chat with other users.";
 "ham.vc.version" = "Version information.";
-"ham.vc.review" = "Review Spend Stack";
+"ham.vc.review" = "Review Expense App";
 "ham.vc.review2" = "Let us know how we're doing.";
 "ham.vc.privacy" = "Privacy Policy";
 "ham.vc.privacy2" = "Your data is yours.";
@@ -171,9 +171,9 @@
 "ex.util.detail1" = "Tags let you group similar items together. Use it to group groceries by produce or dairy, birthday gifts for your family, stuff you want to budget for or any other category you'd like to put things under.\n\nAny tags you create will sync automatically to your other devices signed into the same iCloud account as this one, and any tags that are in a list when you share it will show up for the people you've shared your list with too.\n\nTags carry over across all of your lists, so you don't have to keep making the same ones over and over. And, if you edit one, it'll be reflected on any other list it shows up on.";
 "ex.util.detail2" = "When this is on, a total amount of the items within a tag will display at the bottom of each section.\n\nThis way, you can easily see how much of your list's total is coming from each tag and all the items within it.";
 "ex.util.detail3" = "This shows the total amount of your list's items at the top of your list. You can tap on it to see a more detailed explanation showing a subtotal, tax and discount amounts.\n\nEven if you have this off, you can always tap the calculator icon at the bottom left to view the total amount breakdown at any time.";
-"ex.util.detail4" = "If this is turned on, all currency data will be formatted as a whole number in Spend Stack. In addition, entering in costs will also enforce whole values.\n\nThis is useful for regions where currencies don't use fractional values, such as 1 instead of 1.00.";
-"ex.util.detail5" = "If this is turned on, Spend Stack will apply the sales tax for your area to an item's cost. You can also turn this on or off on an item by item basis, as well as change the tax rate for the list later on within settings.";
-"ex.util.detail6" = "If this is turned on, Spend Stack will show a checkbox next to each item. You can also show the total cost of only checked or unchecked items in addition to all of your items. You can later toggle this on or off within settings.";
+"ex.util.detail4" = "If this is turned on, all currency data will be formatted as a whole number in Expense App. In addition, entering in costs will also enforce whole values.\n\nThis is useful for regions where currencies don't use fractional values, such as 1 instead of 1.00.";
+"ex.util.detail5" = "If this is turned on, Expense App will apply the sales tax for your area to an item's cost. You can also turn this on or off on an item by item basis, as well as change the tax rate for the list later on within settings.";
+"ex.util.detail6" = "If this is turned on, Expense App will show a checkbox next to each item. You can also show the total cost of only checked or unchecked items in addition to all of your items. You can later toggle this on or off within settings.";
 "ex.util.detail7" = "You can choose any currency to use for your list. You can later edit this at any point within a list's settings.";
 
 /* Tags VC */
@@ -206,7 +206,7 @@
 "advList.vc.fetch" = "Fetch List";
 "advList.vc.explainFetch" = "This will refetch all of this list's data from iCloud. Use this if this device appears to be missing some data from another one of your devices.";
 "advList.vc.performFetch" = "Perform Fetch";
-"advList.vc.allFetch" = "This will fetch all of Spend Stack's data from iCloud. Spend Stack will perform syncs on your behalf automatically. Only use this if your data appears inconsistent across devices.";
+"advList.vc.allFetch" = "This will fetch all of Expense App's data from iCloud. Expense App will perform syncs on your behalf automatically. Only use this if your data appears inconsistent across devices.";
 "advList.vc.listFetch" = "This will refetch all of this list's data from iCloud. Use this if this device appears to be missing some data from another one of your devices.";
 "advList.vc.signIn" = "Sign In with iCloud";
 "advList.vc.singInExplain" = "You currently aren't signed into iCloud on your device.\n\nPlease visit the Settings app to sign in, and all of your data will then begin to sync automatically.";
@@ -225,9 +225,9 @@
 
 /* About VC */
 "about.vc.title" = "About";
-"about.vc.version" = "Spend Stack Version ";
+"about.vc.version" = "Expense App Version ";
 "about.vc.build" = "Build ";
-"about.vc.design" = "Designed and developed\nby Dreaming In Binary LLC.";
+"about.vc.design" = "Designed and developed\nby [INSERT COMPANY NAME].";
 
 /* Privacy VC */
 "privacy.vc.title" = "Privacy Policy";
@@ -236,7 +236,7 @@
 "privacy.vc.subhead2" = "Debugging Data";
 "privacy.vc.explain2" = "We use Apple's opt-in service for crash reporting. Your device, version of iOS and the date of when the crash occurred will be viewable by us. However, no personally identifiable information is kept by us or sent to Bug Snag. The only things we will see are what steps were taken before the crash occurred. We will not see any of the data you've entered such as the name of your lists, items, notes or images.";
 "privacy.vc.subhead3" = "Personal Data";
-"privacy.vc.explain3" = "Put simply, nothing you enter in Spend Stack is ever viewable by us. For debugging purposes, we may ask you to provide this kind of information to troubleshoot an issue. Otherwise, it is written directly to your device and any data that's synced is done so via Apple's iCloud services and is not accessible to us.";
+"privacy.vc.explain3" = "Put simply, nothing you enter in Expense App is ever viewable by us. For debugging purposes, we may ask you to provide this kind of information to troubleshoot an issue. Otherwise, it is written directly to your device and any data that's synced is done so via Apple's iCloud services and is not accessible to us.";
 "privacy.vc.question" = "Any Questions?";
 "privacy.vc.contact" = "If you have any questions at all about your data, please don't hesitate to contact us. We're happy to answer anything!";
 
@@ -268,7 +268,7 @@
 "taxUtil.tax" = "Sales Tax";
 
 /* Tax Permissions VC */
-"taxPerm.main" = "Spend Stack needs to know your location to find your local sales tax.\n\nIf that sounds good, please grant us location permissions.";
+"taxPerm.main" = "Expense App needs to know your location to find your local sales tax.\n\nIf that sounds good, please grant us location permissions.";
 "taxPerm.grant" = "Grant Permission";
 "taxPerm.steps" = "Please open your %@ settings to grant us permission to temporarily view your location.";
 "taxPerm.disabled" = "Location Services Disabled";

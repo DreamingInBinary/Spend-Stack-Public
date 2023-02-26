@@ -1,6 +1,6 @@
 /*
  Localizable.strings
- Spend Stack
+ Expense App
  
  Created by Jordan Morgan on 1/2/17.
  Copyright © 2017 Jordan Morgan. All rights reserved.
@@ -64,7 +64,7 @@
 
 /* Apple Card */
 "appleCard.header" = "Impor untuk Apple Card ®";
-"appleCard.copy" = "Impor Pernyataan Apple Card® Anda ke daftar di Spend Stack. Untuk setiap tagihan, kami akan membuat item untuk daftar Anda. Data ini hanya dapat dilihat oleh Anda atau siapa pun yang Anda bagikan daftar.\n\nUntuk memulai, ekspor pernyataan Apple Card® ke aplikasi Files dalam format .csv.";
+"appleCard.copy" = "Impor Pernyataan Apple Card® Anda ke daftar di Expense App. Untuk setiap tagihan, kami akan membuat item untuk daftar Anda. Data ini hanya dapat dilihat oleh Anda atau siapa pun yang Anda bagikan daftar.\n\nUntuk memulai, ekspor pernyataan Apple Card® ke aplikasi Files dalam format .csv.";
 "appleCard.start" = "Mulai";
 "appleCard.howTo" = "Cara mengekspor pernyataan Apple Card® Anda.";
 "appleCard.import" = "Impor %@ dari %@ item.";
@@ -104,12 +104,12 @@
 "firstRun.vc.accurate2" = "Ketahui dengan tepat setiap harga entri termasuk diskon, pajak, harga per satuan, dan sebagainya .";
 "firstRun.vc.tags" = "Tandai";
 "firstRun.vc.organize" = "Atur dan kategorikan semua dengan membuat tanda.";
-"firstRun.vc.headerText" = "Selamat Datang di Spend Stack";
-"firstRun.vc.headerText2" = "Selamat Datang di\nSpend Stack";
+"firstRun.vc.headerText" = "Selamat Datang di Expense App";
+"firstRun.vc.headerText2" = "Selamat Datang di\nExpense App";
 
 /* Expired */
-"betaExpired.headerText" = "Thanks for testing Spend Stack";
-"betaExpired.headerText2" = "Thanks for testing\n Spend Stack";
+"betaExpired.headerText" = "Thanks for testing Expense App";
+"betaExpired.headerText2" = "Thanks for testing\n Expense App";
 "betaExpired.detail" = "Bangunan ini telah kedaluwarsa. Silakan unduh versi yang ditemukan di App Store.";
 "betaExpired.download" = "Unduh";
 
@@ -128,7 +128,7 @@
 "ham.vc.reddit" = "Komunitas Reddit";
 "ham.vc.reddit2" = "Chat dengan pengguna lain.";
 "ham.vc.version" = "Informasi Versi.";
-"ham.vc.review" = "Ulasan Spend Stack";
+"ham.vc.review" = "Ulasan Expense App";
 "ham.vc.review2" = "Berikan penilaian anda tentang kami.";
 "ham.vc.privacy" = "Kebijakan Privasi";
 "ham.vc.privacy2" = "Data anda sepenuhnya milik anda.";
@@ -171,9 +171,9 @@
 "ex.util.detail1" = "Dengan memberinya tanda, anda dapat mengelompokkan entri-entri yang sejenis. Kelompokan berdasarkan produk pertainian atau produk susu, kado ulang tahun, entri-entri yang anda inginkan, atau kategori lain yang anda butuhkan.\n\nSetiap tanda yang anda buat akan disinkronkan secara otomatis ke perangkat anda yang lain yang terhubung kea kun iCloud yang sama, dan setiap tanda yang ada dalam daftar yang anda bagikan  akan dapat dilihat oleh orang-orang dalam daftar bagi anda.\n\nTanda akan selalu terbawa dalam semua daftar anda, sehingga anda cukup membuatnya sekali saja. Dan jika anda mengubahnya, perubahan itu akan dicerminkan ke seluruh daftar anda yang terdapat tanda tersebut.";
 "ex.util.detail2" = "Ketika berkerja, jumlah total entri-entri dibawah sebuah tanda akan ditampilkan pada bagian bawah pada setiap bagian.\n\nDengan demikian,anda dapat dengan mudah melihat jumlah total dari daftar anda dari setiap tanda dan setiap entri dalam tanda tersebut.";
 "ex.util.detail3" = "Ini menunjukkan jumlah total daftar entri anda pada bagian paling atas. Anda dapat mentapnya untuk melihat informasi lebih detail yang menunjukkan subtotal, pajak, dan jumlah diskon.\n\nBahkan ketika fungsi ini dimatikan anda dapat men tap icon kalkulator pada bagian kiri bawah untuk melihat perincian jumlah kapan.";
-"ex.util.detail4" = "Jika fungsi ini dijalankan, semua angka dalam mata uang akan ditampilkan secara penuh dalam Spend Stack. Sebagai tambahan, implementasi tersebut juga ketika anda memasukkan biaya.\n\nIni berguna di region dimana angka mata uang tidak menggunakan penulisan tradisional, seperti 1, bukan 1,00.";
-"ex.util.detail5" = "If this is turned on, Spend Stack will apply the sales tax for your area to an item's cost. You can also turn this on or off on a item by item basis, as well as change the tax rate for the list later on in settings.";
-"ex.util.detail6" = "Jika ini diaktifkan, Spend Stack akan menampilkan kotak centang di sebelah setiap item. Anda nantinya dapat mengaktifkan atau menonaktifkan ini dalam pengaturan.";
+"ex.util.detail4" = "Jika fungsi ini dijalankan, semua angka dalam mata uang akan ditampilkan secara penuh dalam Expense App. Sebagai tambahan, implementasi tersebut juga ketika anda memasukkan biaya.\n\nIni berguna di region dimana angka mata uang tidak menggunakan penulisan tradisional, seperti 1, bukan 1,00.";
+"ex.util.detail5" = "If this is turned on, Expense App will apply the sales tax for your area to an item's cost. You can also turn this on or off on a item by item basis, as well as change the tax rate for the list later on in settings.";
+"ex.util.detail6" = "Jika ini diaktifkan, Expense App akan menampilkan kotak centang di sebelah setiap item. Anda nantinya dapat mengaktifkan atau menonaktifkan ini dalam pengaturan.";
 "ex.util.detail7" = "Anda dapat menggunakan mata uang apa pun untuk daftar Anda. Ini nantinya dapat diubah dalam pengaturan daftar Anda.";
 
 /* Tags VC */
@@ -206,7 +206,7 @@
 "advList.vc.fetch" = "Mengambil Daftar";
 "advList.vc.explainFetch" = "Mengambil ulang  daftar data dari iCloud. Gunakan apabila pada perangkat ini tidak  terdapat data yang berasal dari perangkat anda yang lain.";
 "advList.vc.performFetch" = "Jalankan Pengambilan";
-"advList.vc.allFetch" = "Ini akan mengambil semua data Spend Stack's dari iCloud. Spend Stack akan menjalankan sinkronisasi bagi anda secara otomatis. Gunakan hanya apabila data anda tampak tidak konsisten di semua perangkat yang anda gunakan.";
+"advList.vc.allFetch" = "Ini akan mengambil semua data Expense App's dari iCloud. Expense App akan menjalankan sinkronisasi bagi anda secara otomatis. Gunakan hanya apabila data anda tampak tidak konsisten di semua perangkat yang anda gunakan.";
 "advList.vc.listFetch" = "Ini akan mengambil ulang semua daftar data anda dari iCloud. Gunakan apabila perangkat ini kehilangan sebagian data yang ada di perangkat lain yang anda.";
 "advList.vc.signIn" = "Masuk dengan iCloud";
 "advList.vc.singInExplain" = "Perangkat anda tidak sedang terhugung dengan iCloud .\n\nKunjungi menu Pengaturan untuk masuk , dan semua data anda akan mulai disinkronkan secara otomatis.";
@@ -225,9 +225,9 @@
 
 /* About VC */
 "about.vc.title" = "Tentang";
-"about.vc.version" = "Versi Spend Stack";
+"about.vc.version" = "Versi Expense App";
 "about.vc.build" = "Build ";
-"about.vc.design" = "Didesain dan dikembangkan\noleh Dreaming In Binary LLC.";
+"about.vc.design" = "Didesain dan dikembangkan\noleh [INSERT COMPANY NAME].";
 
 /* Privacy VC */
 "privacy.vc.title" = "Kebijakan Privasi";
@@ -236,7 +236,7 @@
 "privacy.vc.subhead2" = "Debugging Data";
 "privacy.vc.explain2" = "Kami menggunakan Bug Snag untuk melaporkan crash. Perangkat anda, versi dari iOS dan tanggal crash terjadi  akan dapat terlihat oleh kami. Walaupun demikian tidak ada identitas personal yang kami simpan maupun kami kirimkan ke Bug Snag. Yang dapat kami lihat hanyalah langkah yang diambil sebelum terjadi crash. Kami tidak dapat melihat data apapun yang anda masukkan, seperti nama dari daftar anda, nama entri, catatan, atau gambar.";
 "privacy.vc.subhead3" = "Data personal";
-"privacy.vc.explain3" = "Secara sederhana, tidak ada data yang anda masukkan ke Spend Stack yang dapat terlihat oleh kami. Untuk fungsi debugging, kami mungkin meminta anda untuk memberi informasi untuk mengatasi masalah, jika tidak informasi tersebut terekam ke perangkat anda, dan data yang disinkronkan melalui iCloud Apple tidak dapat diakses oleh kami.";
+"privacy.vc.explain3" = "Secara sederhana, tidak ada data yang anda masukkan ke Expense App yang dapat terlihat oleh kami. Untuk fungsi debugging, kami mungkin meminta anda untuk memberi informasi untuk mengatasi masalah, jika tidak informasi tersebut terekam ke perangkat anda, dan data yang disinkronkan melalui iCloud Apple tidak dapat diakses oleh kami.";
 "privacy.vc.question" = "Ada Pertanyaan?";
 "privacy.vc.contact" = "Jika anda mempunyai pertanyaan tentang data anda, jangan ragu untuk menghubungi kami, dengan senang hati kami akan membantu.";
 
@@ -269,7 +269,7 @@
 "taxUtil.tax" = "Pajak penjualan";
 
 /* Tax Permissions VC */
-"taxPerm.main" = "Spend Stack memerlukan lokasi anda untuk mengetahui tarif pajak penjualan di lokasi anda.\n\nIf terlihat bagus, tolong berikan lokasi anda.";
+"taxPerm.main" = "Expense App memerlukan lokasi anda untuk mengetahui tarif pajak penjualan di lokasi anda.\n\nIf terlihat bagus, tolong berikan lokasi anda.";
 "taxPerm.grant" = "Berikan izin";
 "taxPerm.steps" = "Tolong buka %@ menu pengaturan untuk memberi kami izin sementara untuk mengetahui lokasi anda .";
 "taxPerm.disabled" = "Layanan Lokasi dinonaktifkan";

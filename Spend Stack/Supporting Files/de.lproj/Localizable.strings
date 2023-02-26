@@ -1,6 +1,6 @@
 /*
  Localizable.strings
- Spend Stack
+ Expense App
  
  Created by Jordan Morgan on 1/2/17.
  Copyright © 2017 Jordan Morgan. All rights reserved.
@@ -64,7 +64,7 @@
 
 /* Apple Card */
 "appleCard.header" = "Import für Apple Card ®";
-"appleCard.copy" = "Importiere deine Apple Card®-Umsätze in eine Liste in Spend Stack. Für jeden Umsatz erstellen wir ein Element für deine Liste. Diese Daten können nur von dir oder anderen Personen angezeigt werden, mit denen du deine Liste teilst.\n\nExportiere zunächst einen Apple Card®-Kontoauszug im CSV-Format in die Dateien-App.";
+"appleCard.copy" = "Importiere deine Apple Card®-Umsätze in eine Liste in Expense App. Für jeden Umsatz erstellen wir ein Element für deine Liste. Diese Daten können nur von dir oder anderen Personen angezeigt werden, mit denen du deine Liste teilst.\n\nExportiere zunächst einen Apple Card®-Kontoauszug im CSV-Format in die Dateien-App.";
 "appleCard.start" = "Start";
 "appleCard.howTo" = "So exportierst du deinen Apple Card®-Kontoauszug.";
 "appleCard.import" = "%@ von %@ Elementen importiert.";
@@ -104,12 +104,12 @@
 "firstRun.vc.accurate2" = "Behalte die Preise aller Elemente mit Rabatten, Preisangaben nach Gewicht und mehr stets im Blick.";
 "firstRun.vc.tags" = "Tags";
 "firstRun.vc.organize" = "Kategorisiere und organisiere alles, indem du Tags erstellst.";
-"firstRun.vc.headerText" = "Willkommen bei Spend Stack";
-"firstRun.vc.headerText2" = "Willkommen bei \nSpend Stack";
+"firstRun.vc.headerText" = "Willkommen bei Expense App";
+"firstRun.vc.headerText2" = "Willkommen bei \nExpense App";
 
 /* Expired */
-"betaExpired.headerText" = "Danke für's Testen von Spend Stack";
-"betaExpired.headerText2" = "Danke für's Testen von \nSpend Stack";
+"betaExpired.headerText" = "Danke für's Testen von Expense App";
+"betaExpired.headerText2" = "Danke für's Testen von \nExpense App";
 "betaExpired.detail" = "Dieser Build ist abgelaufen. Bitte lade die Version aus dem App Store herunter.";
 "betaExpired.download" = "Herunterladen";
 
@@ -128,8 +128,8 @@
 "ham.vc.reddit" = "Reddit Community";
 "ham.vc.reddit2" = "Chatte mit anderen Benutzern.";
 "ham.vc.version" = "Versionsinformation.";
-"ham.vc.review" = "Spend Stack bewerten";
-"ham.vc.review2" = "Lasse uns wissen, wie dir Spend Stack gefällt.";
+"ham.vc.review" = "Expense App bewerten";
+"ham.vc.review2" = "Lasse uns wissen, wie dir Expense App gefällt.";
 "ham.vc.privacy" = "Datenschutz-Bestimmungen";
 "ham.vc.privacy2" = "Deine Daten gehören dir.";
 "ham.vc.acknowledge" = "Danksagung";
@@ -145,7 +145,7 @@
 "ham.vc.localize2" = "Verbessere unsere Lokalisierung.";
 "ham.vc.appearance" = "Symbol bearbeiten";
 "ham.vc.appearance2" = "Finde einen neuen Favoriten.";
-"ham.vc.guides" = "Neu bei Spend Stack?";
+"ham.vc.guides" = "Neu bei Expense App?";
 "ham.vc.guides2" = "Fang hier an.";
 
 /* Explainer Utils and VC */
@@ -172,9 +172,9 @@
 "ex.util.detail1" = "Mit Tags kannst du ähnliche Elemente gruppieren. Verwende sie beispielsweise, um Lebensmittel nach Produktart zu gruppieren, Geburtstagsgeschenke für deine Familie zu sammeln, Dinge zu budgetieren, oder für beliebige andere Kategorien, in die du Elemente einordnen möchtest.\n\nAlle Tags, die du erstellst, werden automatisch mit deinen anderen Geräten synchronisiert, die mit demselben iCloud-Account wie diesem angemeldet sind, und alle Tags, die sich in einer geteilten Liste befinden, werden auch für die Personen angezeigt, mit denen du die Liste geteilt hast.\n\nTags sind für alle Listen verfügbar, sodass du nicht immer wieder dieselben erstellen musst. Wenn du einen Tag bearbeitest, wird die Änderung in allen Listen sichtbar sein, auf denen er verwendet wird.";
 "ex.util.detail2" = "Wenn diese Option aktiviert ist, wird am unteren Rand jedes Abschnitts die Gesamtsumme der Elemente, die zu diesem Tag gehören, angezeigt.\n\nAuf diese Weise kannst du leicht sehen, wie viel von der Gesamtsumme deiner Liste von jedem Tag und allen darin enthaltenen Elementen stammt.";
 "ex.util.detail3" = "Dies zeigt die Gesamtsumme der Elemente in deiner Liste. Du kannst darauf tippen, um eine detailliertere Erläuterung der Zwischensumme, Steuern und Rabattbeträge anzuzeigen.\n\nAuch wenn du dies deaktiviert hast, kannst du jederzeit auf das Taschenrechnersymbol unten links tippen, um die Aufschlüsselung des Gesamtbetrags anzuzeigen.";
-"ex.util.detail4" = "Wenn dies aktiviert ist, werden alle Währungsdaten in Spend Stackals ganze Zahl formatiert. Infolgedessen ist die Eingabe von Kosten auch nur noch ganzzahlig möglich.\n\nDies ist nützlich für Regionen, in denen Währungen keine Dezimalzahlen verwenden, z.B. 1 anstelle von 1,00.";
-"ex.util.detail5" = "Wenn diese Option aktiviert ist, wird Spend Stack automatisch die Steuern für deine Region auf die Kosten eines Elements draufrechnen. Du kannst dies auch pro Element aktivieren oder deaktivieren und den Steuersatz für die Liste später in den Einstellungen ändern.";
-"ex.util.detail6" = "Wenn diese Option aktiviert ist, zeigt Spend Stack eine Checkbox neben jedem Element an. Du kannst dies später in den Einstellungen ein- oder ausschalten.";
+"ex.util.detail4" = "Wenn dies aktiviert ist, werden alle Währungsdaten in Expense Appals ganze Zahl formatiert. Infolgedessen ist die Eingabe von Kosten auch nur noch ganzzahlig möglich.\n\nDies ist nützlich für Regionen, in denen Währungen keine Dezimalzahlen verwenden, z.B. 1 anstelle von 1,00.";
+"ex.util.detail5" = "Wenn diese Option aktiviert ist, wird Expense App automatisch die Steuern für deine Region auf die Kosten eines Elements draufrechnen. Du kannst dies auch pro Element aktivieren oder deaktivieren und den Steuersatz für die Liste später in den Einstellungen ändern.";
+"ex.util.detail6" = "Wenn diese Option aktiviert ist, zeigt Expense App eine Checkbox neben jedem Element an. Du kannst dies später in den Einstellungen ein- oder ausschalten.";
 "ex.util.detail7" = "Du kannst eine beliebige Währung für deine Liste verwenden. Dies kann später in den Listeneinstellungen geändert werden.";
 
 /* Tags VC */
@@ -207,7 +207,7 @@
 "advList.vc.fetch" = "Liste laden";
 "advList.vc.explainFetch" = "Dadurch werden alle Daten dieser Liste aus iCloud geladen. Verwende diese Option, wenn auf diesem Gerät Daten von einem anderen Gerät fehlen.";
 "advList.vc.performFetch" = "Jetzt laden";
-"advList.vc.allFetch" = "Dadurch werden alle Spend Stack-Daten von iCloud abgerufen. Spend Stack führt automatisch Synchronisierungen für dich durch. Verwende diese Option nur, wenn deine Daten geräteübergreifend inkonsistent sind.";
+"advList.vc.allFetch" = "Dadurch werden alle Expense App-Daten von iCloud abgerufen. Expense App führt automatisch Synchronisierungen für dich durch. Verwende diese Option nur, wenn deine Daten geräteübergreifend inkonsistent sind.";
 "advList.vc.listFetch" = "Dadurch werden alle Daten dieser Liste aus iCloud abgerufen. Verwende diese Option, wenn auf diesem Gerät Daten von einem anderen Gerät fehlen.";
 "advList.vc.signIn" = "Mit iCloud anmelden";
 "advList.vc.singInExplain" = "Du bist derzeit auf deinem Gerät nicht bei iCloud angemeldet.\n\nWechsle zur Einstellungen-App, um dich anzumelden. Alle deine Daten werden dann automatisch synchronisiert.";
@@ -226,9 +226,9 @@
 
 /* About VC */
 "about.vc.title" = "Über";
-"about.vc.version" = "Spend Stack Version ";
+"about.vc.version" = "Expense App Version ";
 "about.vc.build" = "Build ";
-"about.vc.design" = "Entworfen und entwickelt \nvon Dreaming In Binary LLC.";
+"about.vc.design" = "Entworfen und entwickelt \nvon [INSERT COMPANY NAME].";
 
 /* Privacy VC */
 "privacy.vc.title" = "Datenschutz-Bestimmungen";
@@ -237,7 +237,7 @@
 "privacy.vc.subhead2" = "Debuggen von Daten";
 "privacy.vc.explain2" = "Wir verwenden Apple für das Sammeln von Absturzmeldungungen. Ihr Gerät, Ihre iOS-Version und das Datum, an dem der Absturz aufgetreten ist, werden uns dabei angezeigt. Es werden jedoch keine personenbezogenen Daten von uns gespeichert oder an Bug Snag gesendet. Wir können nur sehen, welche Schritte vor dem Absturz unternommen wurden. Wir sehen keine der von dir eingegebenen Daten wie den Namen deiner Listen, Elemente, Notizen oder Bilder.";
 "privacy.vc.subhead3" = "Persönliche Daten";
-"privacy.vc.explain3" = "Einfach ausgedrückt, nichts, was du in Spend Stack eingibst, kann von uns gesehen werden. Zu Debugging-Zwecken bitten wir dich möglicherweise, diese Art von Informationen bereitzustellen, um ein Problem zu beheben. Andernfalls wird alles direkt auf deinem Gerät gespeichert, und alle synchronisierten Daten werden über die iCloud-Dienste von Apple übertragen und sind für uns nicht zugänglich.";
+"privacy.vc.explain3" = "Einfach ausgedrückt, nichts, was du in Expense App eingibst, kann von uns gesehen werden. Zu Debugging-Zwecken bitten wir dich möglicherweise, diese Art von Informationen bereitzustellen, um ein Problem zu beheben. Andernfalls wird alles direkt auf deinem Gerät gespeichert, und alle synchronisierten Daten werden über die iCloud-Dienste von Apple übertragen und sind für uns nicht zugänglich.";
 "privacy.vc.question" = "Irgendwelche Fragen?";
 "privacy.vc.contact" = "Wenn du Fragen zu deinen Daten hast, zögere bitte nicht, uns zu kontaktieren. Wir beantworten gerne jede Anfrage!";
 
@@ -269,7 +269,7 @@
 "taxUtil.tax" = "Mehrwertsteuer";
 
 /* Tax Permissions VC */
-"taxPerm.main" = "Spend Stack muss deinen Standort kennen, um deine lokale Mehrwertsteuer zu ermitteln. Wenn das gut klingt, erteile uns bitte Standortberechtigungen.";
+"taxPerm.main" = "Expense App muss deinen Standort kennen, um deine lokale Mehrwertsteuer zu ermitteln. Wenn das gut klingt, erteile uns bitte Standortberechtigungen.";
 "taxPerm.grant" = "Erlaubnis erteilen";
 "taxPerm.steps" = "Öffne deine %@ -Einstellungen, um uns die Erlaubnis zu erteilen, deinen Standort vorübergehend abzufragen.";
 "taxPerm.disabled" = "Ortungsdienste deaktiviert";

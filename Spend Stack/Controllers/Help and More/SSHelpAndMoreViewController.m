@@ -411,18 +411,10 @@ static NSInteger const SECTION_COLOPHON = 4;
     if (indexPath.section == SECTION_TIPS)
     {
         [tableView deselectRowAtIndexPath:indexPath animated:YES];
-        
-        UIViewController *parentVC = self.presentingViewController;
-        [self dismissViewControllerAnimated:YES completion:^{
-            SFSafariViewController *safariVC = [[SFSafariViewController alloc] initWithURL:[NSURL URLWithString:@"https://www.spendstack.com/sharing-christmas-lists/"]];
-            safariVC.modalPresentationStyle = UIModalPresentationOverCurrentContext;
-            [parentVC presentViewController:safariVC animated:YES completion:nil];
-        }];
     }
     else if (indexPath.section == SECTION_APPEARANCE)
     {
-        ChangeIconViewController *changeIconVC = [ChangeIconViewController new];
-        [self.navigationController pushViewController:changeIconVC animated:YES];
+        [tableView deselectRowAtIndexPath:indexPath animated:YES];
     }
     else if (indexPath.section == SECTION_LIST_SETTINGS)
     {

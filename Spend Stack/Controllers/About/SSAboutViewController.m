@@ -58,7 +58,7 @@ static const NSInteger SS_APP_ICON_SIZE = 60;
     [narcassisticLabel setContentHuggingPriority:UILayoutPriorityRequired forAxis:UILayoutConstraintAxisHorizontal];
     [narcassisticLabel configureFontWeight:UIFontWeightMedium];
     narcassisticLabel.textColor = [UIColor ssSecondaryColor];
-    narcassisticLabel.text = ss_Localized(@"about.vc.design");
+    narcassisticLabel.text = @"This app is based upon Spend Stack's open source code.\nhttps://www.swiftjectivec.com/spend-stack-is-open-source";
     narcassisticLabel.textAlignment = NSTextAlignmentCenter;
     [self addPointerInteraction:narcassisticLabel];
     
